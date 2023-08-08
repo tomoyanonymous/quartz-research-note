@@ -9,4 +9,4 @@ Using [quartz digital garden](https://jzhao.xyz/posts/networked-thought) templat
 
 ### ページ一覧
 
-[[自作トランジスタ研究計画]]
+[[notes/diy-semiconductor/自作トランジスタ研究計画]]
