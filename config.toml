@@ -1,5 +1,5 @@
 baseURL = "https://quarts-research-note.tomoyanonymous.github.io"
-languageCode = "en-us"
+languageCode = "ja-jp"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
