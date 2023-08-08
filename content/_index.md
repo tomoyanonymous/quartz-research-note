@@ -10,3 +10,5 @@ Using [quartz digital garden](https://jzhao.xyz/posts/networked-thought) templat
 ### ページ一覧
 
 [[notes/diy-semiconductor/自作トランジスタ研究計画]]
+
+文字中のタグは反映されない（#research）とか
