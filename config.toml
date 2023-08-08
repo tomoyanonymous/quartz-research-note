@@ -1,6 +1,6 @@
 title = "Matsuura Tomoya Research Note"
 baseURL = "https://.tomoyanonymous.github.io/quarts-research-note"
-languageCode = "ja-jp"
+languageCode = "ja"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
