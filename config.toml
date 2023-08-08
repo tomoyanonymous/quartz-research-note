@@ -1,4 +1,4 @@
-baseURL = "https://quarts-research-note.tomoyanonymous.github.io"
+baseURL = "https://.tomoyanonymous.github.io/quarts-research-note"
 languageCode = "ja-jp"
 relativeURLs = false
 disablePathToLower = true
