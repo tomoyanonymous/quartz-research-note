@@ -168,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,7 +184,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b66dbcb9e4f5425",
+  "active": "d1b7214b84e9e04d",
   "lastOpenFiles": [
     "notes/DIY半導体.md",
     "notes/オルタナティブ電子基板.md",
