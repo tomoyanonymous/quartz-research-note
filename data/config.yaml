@@ -22,6 +22,10 @@ description:
 page_title:
   "Matsuura Tomoya Research Note"
 links:
+  - link_name: Home
+    link: https://matsuuratomoya.com
+  - link_name: Mastodon
+    link: https://social.matsuuratomoya.com/@tomoya
   - link_name: Twitter
     link: https://twitter.com/tomoya_nonymous
   - link_name: GitHub
