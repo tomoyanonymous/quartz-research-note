@@ -3,7 +3,7 @@ title: DIY半導体
 tags:
 - research
 - survey
-- diy-semiconductor
+- semiconductor
 ---
 
 とりあえず再現実験系
@@ -59,8 +59,6 @@ https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_tr
 http://www.sparkbangbuzz.com/  
 
 #### [[Jeri Ellsworth]]
-
-
 
 ##### Sam Zeloof
 

@@ -1,4 +1,5 @@
 ---
+title: Scientific American 1970年6月号
 tags:
 - survey
 - semiconductor
