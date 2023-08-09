@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "notes/オルタナティブ電子基板.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df7027abeaef14d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/DIY半導体.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "notes/DIY半導体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "notes/DIY半導体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "notes/DIY半導体.md"
               }
             }
           }
@@ -173,15 +185,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41ba3ba6c92a776a",
+  "active": "df7027abeaef14d1",
   "lastOpenFiles": [
-    "notes/オルタナティブ電子基板.md",
-    "notes/DIY半導体.md",
     "notes/Obsidian.md",
-    "notes/diy-semiconductor/DIY半導体.md",
-    "_index.md",
-    "notes/この研究ノートについて.md",
     "notes/Hugo.md",
+    "notes/オルタナティブ電子基板.md",
+    "notes/AxiDraw.md",
+    "_index.md",
+    "notes/DIY半導体.md",
+    "notes/diy-semiconductor/DIY半導体.md",
+    "notes/この研究ノートについて.md",
     "notes/Quartz.md"
   ]
 }
