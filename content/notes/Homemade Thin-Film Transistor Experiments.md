@@ -12,7 +12,7 @@ https://web.archive.org/web/20210504200229/https://www.andaquartergetsyoucoffee.
 
 https://www.andaquartergetsyoucoffee.com/wp/wp-content/uploads/2009/05/zinc-oxide-experiments-i.pdf
 
-## 日本語訳
+## Episode 1の日本語訳
 
 (図版は除く、翻訳はほぼDeepLによる)
 

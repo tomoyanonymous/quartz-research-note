@@ -98,7 +98,7 @@ Puma
 
 https://www.youtube.com/watch?v=7UbkrZyNgpo
 
-Maasi (DIY [[スピンコーター]] )
+[[Maasi]] (DIY [[スピンコーター]] )
 
 https://github.com/klotzsch-lab/Maasi
 
