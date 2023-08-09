@@ -54,6 +54,9 @@ pictures and a bit of history
 
 https://ibm-1401.info/GermaniumAlloy.html
 
+#### Yahoo Group "Home Transistor" on archive.org
+
+https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_transistor/
 
 ### その他、エクストリームDIY
 
