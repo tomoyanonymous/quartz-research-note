@@ -1,7 +1,8 @@
 ---
 title: Quartz
-tag: 
+tags: 
 - obsidian
+- tools
 ---
 
 ## Quartz
@@ -10,7 +11,7 @@ tag:
 
 https://github.com/jackyzha0/quartz
 
-ObsidianのものをなるべくそのままHugoで使えるようにしている
+[[Obsidian]]のものをなるべくそのままHugoで使えるようにしている
 
 ## いいところ
 
