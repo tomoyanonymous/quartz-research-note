@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自宅サーバー.md",
+                "file": "論文の管理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自宅サーバー.md"
+                "file": "論文の管理.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自宅サーバー.md",
+                "file": "論文の管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自宅サーバー.md",
+                "file": "論文の管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,11 +212,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b74da5b62cd79f0",
+  "active": "40f5c99d16b30777",
   "lastOpenFiles": [
+    "Untitled.md",
+    "論文の管理.md",
     "この研究ノートについて.md",
-    "Quartz.md",
     "自宅サーバー.md",
+    "Quartz.md",
     "img/server3.jpg",
     "img/server1.jpg",
     "img/server2.jpg",
@@ -235,13 +237,11 @@
     "Hannah Perner-Wilson.md",
     "Hugo.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Jeri Ellsworth.md",
     "スピンコーター.md",
     "Homemade Thin-Film Transistor Experiments.md",
     "AxiDraw.md",
     "Zotero.md",
-    "論文の管理.md",
     "Sam Zeloof.md"
   ]
 }
