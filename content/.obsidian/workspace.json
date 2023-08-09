@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
+                "file": "notes/DIY半導体.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
+                "file": "notes/DIY半導体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
+                "file": "notes/DIY半導体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md"
+                "file": "notes/DIY半導体.md"
               }
             }
           }
@@ -184,11 +184,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1b7214b84e9e04d",
+  "active": "5b66dbcb9e4f5425",
   "lastOpenFiles": [
+    "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
     "notes/DIY半導体.md",
     "notes/オルタナティブ電子基板.md",
-    "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
     "Roger baker.md",
     "notes/Quartz.md",
     "notes/Obsidian.md",
