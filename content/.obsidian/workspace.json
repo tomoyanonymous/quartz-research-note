@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIY半導体.md",
+                "file": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DIY半導体.md"
+                "file": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DIY半導体.md",
+                "file": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DIY半導体.md",
+                "file": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,6 +200,12 @@
   },
   "active": "0b74da5b62cd79f0",
   "lastOpenFiles": [
+    "_index.md",
+    "エリザベス・ブレイク.md",
+    "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
+    "読書メモ.md",
+    "この研究ノートについて.md",
+    "DIY半導体.md",
     "Small Artifacts Lab.md",
     "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
     "High-low-tech Lab.md",
@@ -208,7 +214,6 @@
     "Kit of No Parts.md",
     "Hannah Perner-Wilson.md",
     "Hugo.md",
-    "DIY半導体.md",
     "Untitled 1.md",
     "Untitled.md",
     "Jeri Ellsworth.md",
@@ -217,14 +222,9 @@
     "AxiDraw.md",
     "Zotero.md",
     "論文の管理.md",
-    "_index.md",
-    "この研究ノートについて.md",
     "Quartz.md",
     "Sam Zeloof.md",
     "Scientific American 1970年6月号.md",
-    "templates/post.md",
-    "Obsidian.md",
-    "tags.md",
-    "Roger baker.md"
+    "templates/post.md"
   ]
 }
