@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "notes/Quartz.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "903174394ac42934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/この研究ノートについて.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "notes/この研究ノートについて.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "notes/この研究ノートについて.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "notes/この研究ノートについて.md"
               }
             }
           }
@@ -147,8 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1a8bac704ddbb73",
+  "active": "903174394ac42934",
   "lastOpenFiles": [
-    "notes/この研究ノートについて.md"
+    "notes/Obsidian.md",
+    "notes/Quartz.md",
+    "notes/この研究ノートについて.md",
+    "notes/diy-semiconductor/自作トランジスタ研究計画.md",
+    "_index.md"
   ]
 }
