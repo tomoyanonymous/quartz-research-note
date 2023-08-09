@@ -64,15 +64,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
+                "file": "Small Artifacts Lab.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +117,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md"
+                "file": "DIY半導体.md"
               }
             }
           }
@@ -170,11 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7387fa85b04c73e",
+  "active": "0b74da5b62cd79f0",
   "lastOpenFiles": [
-    "High-low-tech Lab.md",
     "Small Artifacts Lab.md",
     "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
+    "High-low-tech Lab.md",
     "オルタナティブ電子基板.md",
     "ファイバーレーザー加工機.md",
     "Kit of No Parts.md",
