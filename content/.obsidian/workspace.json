@@ -18,8 +18,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c80d4de131b69600",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sam Zeloof.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DIY半導体.md"
+                "file": "Sam Zeloof.md"
               }
             }
           }
@@ -116,11 +130,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41ba3ba6c92a776a",
+  "active": "c80d4de131b69600",
   "lastOpenFiles": [
+    "DIY半導体.md",
+    "Sam Zeloof.md",
     "オルタナティブ電子基板.md",
     "Scientific American 1970年6月号.md",
-    "DIY半導体.md",
     "templates/post.md",
     "Quartz.md",
     "Obsidian.md",
