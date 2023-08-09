@@ -6,6 +6,13 @@ tags:
 - diy-semiconductor
 ---
 
+とりあえず再現実験系
+
+- カーブトレーサーシールドづくり
+- ヒーターなしでできる、水CdS
+- クリスタルアンプリファイアー
+- 酸化銅、酸化亜鉛でできること
+
 ## サーベイ
 
 ### 金属酸化物
@@ -69,16 +76,6 @@ https://www.youtube.com/watch?v=vvx1PTYyTSk
 https://makezine.com/article/science/making-transistors-out-of-iron-pyrite/
 http://www.ryanjordan.org/home.html
 https://monoskop.org/Ryan_Jordan
-
-
-試せることが割といっぱいあるんだよな
-
-とりあえず再現実験系
-
-- カーブトレーサーシールドづくり
-- ヒーターなしでできる、水CdS
-- クリスタルアンプリファイアー
-- 酸化銅、酸化亜鉛でできること
 
 ### その他
 

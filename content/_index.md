@@ -3,7 +3,11 @@ title: Matsuura Tomoya Research Note
 enableToc: false
 ---
 
-### 
+### 著者
+
+松浦知也
+
+https://matsuuratomoya.com
 
 ### ページ一覧
 
