@@ -19,11 +19,7 @@ tags:
 
 #### 酸化亜鉛
 
-##### Homebrew ZnO transistor
-
-https://web.archive.org/web/20210118070821/https://www.andaquartergetsyoucoffee.com/wp/?page_id=130
-
-##### [[Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I]]
+##### [[Homemade Thin-Film Transistor Experiments]]
 
 ##### 酸化亜鉛薄膜の形成と物性・デバイス応用
 
@@ -36,7 +32,6 @@ https://www.jstage.jst.go.jp/article/vss/62/7/62_20180376/_pdf/-char/ja
 https://pubs.acs.org/doi/full/10.1021/nn504420r
 
 
-
 ### 歴史
 
 #### halestrom 
@@ -45,10 +40,7 @@ Copper Oxide Diode
 
 http://halestrom.net/darksleep/blog/011_copper_diodes/
 
-#### Scientific American June 1970
-
-http://www.1010.co.uk/materials.html
-https://www.jstor.org/stable/24925833
+#### [[Scientific American 1970年6月号]]
 
 #### Germanium Alloy Transistors
 
@@ -66,18 +58,15 @@ https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_tr
 
 http://www.sparkbangbuzz.com/  
 
-#### Jeri Ellsworth
-
-Making Microchips at Home - Cooking with Jeri Part1
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PdcKwOo7dmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#### [[Jeri Ellsworth]]
 
 
 
-https://vimeo.com/2423528
+##### Sam Zeloof
 
-https://www.youtube.com/watch?v=vvx1PTYyTSk
+Semiconductor Fabrication Basics - DIY Homemade NMOS FET/MOSFET/Transistor Step by Step
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s1MCi7FliVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Ryan Jordan
 
@@ -109,7 +98,7 @@ Puma
 
 https://www.youtube.com/watch?v=7UbkrZyNgpo
 
-Maasi (DIYスピンコーター)
+Maasi (DIY [[スピンコーター]] )
 
 https://github.com/klotzsch-lab/Maasi
 

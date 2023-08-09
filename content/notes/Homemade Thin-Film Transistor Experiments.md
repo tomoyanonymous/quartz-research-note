@@ -1,14 +1,14 @@
 ---
-title: Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I
+title: Homemade Thin-Film Transistor Experiments
 tags:
 - translated
 - survey
 - semiconductor
 ---
 
+And a Quarter gets You Coffee(本名不明、2009年ごろ)
 
-
-
+https://web.archive.org/web/20210504200229/https://www.andaquartergetsyoucoffee.com/wp/?page_id=130
 
 https://www.andaquartergetsyoucoffee.com/wp/wp-content/uploads/2009/05/zinc-oxide-experiments-i.pdf
 
