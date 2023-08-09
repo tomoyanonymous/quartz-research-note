@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b66dbcb9e4f5425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AxiDraw.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "41ba3ba6c92a776a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "オルタナティブ電子基板.md",
+                "file": "DIY半導体.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AxiDraw.md"
+                "file": "DIY半導体.md"
               }
             }
           }
@@ -128,19 +116,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b66dbcb9e4f5425",
+  "active": "41ba3ba6c92a776a",
   "lastOpenFiles": [
-    "Quartz.md",
-    "スピンコーター.md",
-    "Jeri Ellsworth.md",
-    "DIY半導体.md",
     "オルタナティブ電子基板.md",
     "Scientific American 1970年6月号.md",
+    "DIY半導体.md",
+    "templates/post.md",
+    "Quartz.md",
     "Obsidian.md",
+    "AxiDraw.md",
+    "スピンコーター.md",
+    "Jeri Ellsworth.md",
     "_index.md",
     "tags.md",
     "この研究ノートについて.md",
-    "AxiDraw.md",
     "Homemade Thin-Film Transistor Experiments.md",
     "Hugo.md",
     "Roger baker.md",
