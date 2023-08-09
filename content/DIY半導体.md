@@ -60,11 +60,8 @@ http://www.sparkbangbuzz.com/
 
 #### [[Jeri Ellsworth]]
 
-##### Sam Zeloof
+##### [[Sam Zeloof]]
 
-Semiconductor Fabrication Basics - DIY Homemade NMOS FET/MOSFET/Transistor Step by Step
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s1MCi7FliVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Ryan Jordan
 
