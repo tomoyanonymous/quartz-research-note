@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Quartz.md",
+                "file": "notes/Obsidian.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "903174394ac42934",
+            "id": "33df52b786671409",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/この研究ノートについて.md",
+                "file": "notes/diy-semiconductor/自作トランジスタ研究計画.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,6 +89,20 @@
     "type": "split",
     "children": [
       {
+        "id": "ddaeb4bb59375172",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "903174394ac42934",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "9f18c6aa5ab5f06a",
         "type": "tabs",
         "children": [
@@ -98,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/この研究ノートについて.md",
+                "file": "notes/diy-semiconductor/自作トランジスタ研究計画.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/この研究ノートについて.md",
+                "file": "notes/diy-semiconductor/自作トランジスタ研究計画.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +152,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/この研究ノートについて.md"
+                "file": "notes/diy-semiconductor/自作トランジスタ研究計画.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +173,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "903174394ac42934",
+  "active": "33df52b786671409",
   "lastOpenFiles": [
-    "notes/Obsidian.md",
     "notes/Quartz.md",
+    "notes/Obsidian.md",
+    "notes/Hugo.md",
+    "_index.md",
     "notes/この研究ノートについて.md",
-    "notes/diy-semiconductor/自作トランジスタ研究計画.md",
-    "_index.md"
+    "notes/diy-semiconductor/自作トランジスタ研究計画.md"
   ]
 }
