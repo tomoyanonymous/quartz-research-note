@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1b66070701f272f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/スピンコーター.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "41ba3ba6c92a776a",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,8 +120,12 @@
             "id": "903174394ac42934",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/Scientific American 1970年6月号.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -123,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/DIY半導体.md",
+                "file": "notes/スピンコーター.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/DIY半導体.md",
+                "file": "notes/スピンコーター.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/DIY半導体.md"
+                "file": "notes/スピンコーター.md"
               }
             }
           }
@@ -184,14 +201,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b66dbcb9e4f5425",
+  "active": "1b66070701f272f3",
   "lastOpenFiles": [
-    "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
+    "notes/Jeri Ellsworth.md",
     "notes/DIY半導体.md",
+    "notes/Homemade Thin-Film Transistor Experiments.md",
+    "notes/Obsidian.md",
+    "notes/スピンコーター.md",
+    "notes/Scientific American 1970年6月号.md",
     "notes/オルタナティブ電子基板.md",
     "Roger baker.md",
     "notes/Quartz.md",
-    "notes/Obsidian.md",
     "notes/Hugo.md",
     "notes/AxiDraw.md",
     "_index.md",
