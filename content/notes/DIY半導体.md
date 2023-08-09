@@ -19,8 +19,7 @@ tags:
 
 #### 酸化亜鉛
 
-##### Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I
-https://www.andaquartergetsyoucoffee.com/wp/wp-content/uploads/2009/05/zinc-oxide-experiments-i.pdf
+##### [[Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I]]
 
 ##### 酸化亜鉛薄膜の形成と物性・デバイス応用
 
