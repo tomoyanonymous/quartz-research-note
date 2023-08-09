@@ -15,6 +15,7 @@
               "state": {
                 "file": "DIY半導体.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -149,6 +150,35 @@
               "type": "outline",
               "state": {
                 "file": "DIY半導体.md"
+              }
+            }
+          },
+          {
+            "id": "836227447092bfa1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DIY半導体.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54ff8193171f482b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DIY半導体.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
