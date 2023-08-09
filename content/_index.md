@@ -12,4 +12,4 @@ Using [quartz digital garden](https://jzhao.xyz/posts/networked-thought) templat
 - [[notes/この研究ノートについて]]
 - [[notes/diy-semiconductor/自作トランジスタ研究計画]]
 
-文字中のタグは反映されない（#research）とか
+文字中のタグは反映されない（ #research ）とか
