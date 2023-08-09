@@ -2,7 +2,7 @@
 title: Jeri Ellsworth
 tags:
 - person
-- semicondoctor
+- semiconductor
 ---
 
 
