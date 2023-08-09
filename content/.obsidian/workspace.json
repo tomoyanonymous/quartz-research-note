@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/DIY半導体.md",
+                "file": "notes/スピンコーター.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Scientific American 1970年6月号.md",
+                "file": "notes/DIY半導体.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#research）とか",
+                "query": "tag:#diy-semiconductor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Scientific American 1970年6月号.md",
+                "file": "notes/スピンコーター.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Scientific American 1970年6月号.md",
+                "file": "notes/スピンコーター.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,12 +179,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Scientific American 1970年6月号.md"
+                "file": "notes/スピンコーター.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -201,21 +200,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b66070701f272f3",
+  "active": "5b66dbcb9e4f5425",
   "lastOpenFiles": [
-    "notes/Quartz.md",
-    "notes/Scientific American 1970年6月号.md",
-    "notes/オルタナティブ電子基板.md",
-    "notes/この研究ノートについて.md",
-    "notes/Homemade Thin-Film Transistor Experiments.md",
-    "notes/スピンコーター.md",
     "notes/DIY半導体.md",
-    "notes/Hugo.md",
     "notes/Jeri Ellsworth.md",
     "notes/Obsidian.md",
-    "Roger baker.md",
-    "notes/AxiDraw.md",
+    "notes/Quartz.md",
+    "notes/Scientific American 1970年6月号.md",
     "_index.md",
+    "tags.md",
+    "notes/この研究ノートについて.md",
+    "notes/スピンコーター.md",
+    "notes/AxiDraw.md",
+    "notes/Homemade Thin-Film Transistor Experiments.md",
+    "notes/Hugo.md",
+    "notes/オルタナティブ電子基板.md",
+    "Roger baker.md",
     "notes/diy-semiconductor/DIY半導体.md"
   ]
 }

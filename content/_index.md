@@ -15,4 +15,6 @@ https://matsuuratomoya.com
 - [[notes/DIY半導体]]
 - [[notes/オルタナティブ電子基板]]
 
+### [タグ一覧](/tags)
+
 文字中のタグは反映されない（ #research ）とか
