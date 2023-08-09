@@ -5,6 +5,7 @@ tags:
 - semiconductor
 ---
 
+http://sam.zeloof.xyz/
 
 Semiconductor Fabrication Basics - DIY Homemade NMOS FET/MOSFET/Transistor Step by Step
 

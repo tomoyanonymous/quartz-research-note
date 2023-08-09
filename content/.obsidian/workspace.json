@@ -25,7 +25,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sam Zeloof.md",
+                "file": "_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2847b42b90737125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "オルタナティブ電子基板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b01d90a2ff7616e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "オルタナティブ電子基板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5eec0c7afe421f7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kit of No Parts.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sam Zeloof.md"
+                "file": "Kit of No Parts.md"
               }
             }
           }
@@ -130,23 +169,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c80d4de131b69600",
+  "active": "5eec0c7afe421f7a",
   "lastOpenFiles": [
-    "DIY半導体.md",
-    "Sam Zeloof.md",
     "オルタナティブ電子基板.md",
+    "Kit of No Parts.md",
+    "Hugo.md",
+    "DIY半導体.md",
+    "ファイバーレーザー加工機.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Jeri Ellsworth.md",
+    "スピンコーター.md",
+    "Homemade Thin-Film Transistor Experiments.md",
+    "AxiDraw.md",
+    "Zotero.md",
+    "論文の管理.md",
+    "_index.md",
+    "この研究ノートについて.md",
+    "Quartz.md",
+    "Sam Zeloof.md",
     "Scientific American 1970年6月号.md",
     "templates/post.md",
-    "Quartz.md",
     "Obsidian.md",
-    "AxiDraw.md",
-    "スピンコーター.md",
-    "Jeri Ellsworth.md",
-    "_index.md",
     "tags.md",
-    "この研究ノートについて.md",
-    "Homemade Thin-Film Transistor Experiments.md",
-    "Hugo.md",
     "Roger baker.md",
     "notes/diy-semiconductor/DIY半導体.md"
   ]
