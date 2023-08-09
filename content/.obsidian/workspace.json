@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/スピンコーター.md",
+                "file": "notes/Scientific American 1970年6月号.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/スピンコーター.md",
+                "file": "notes/Scientific American 1970年6月号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/スピンコーター.md",
+                "file": "notes/Scientific American 1970年6月号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/スピンコーター.md"
+                "file": "notes/Scientific American 1970年6月号.md"
               }
             }
           }
@@ -203,19 +203,19 @@
   },
   "active": "1b66070701f272f3",
   "lastOpenFiles": [
-    "notes/Jeri Ellsworth.md",
-    "notes/DIY半導体.md",
-    "notes/Homemade Thin-Film Transistor Experiments.md",
-    "notes/Obsidian.md",
-    "notes/スピンコーター.md",
+    "notes/Quartz.md",
     "notes/Scientific American 1970年6月号.md",
     "notes/オルタナティブ電子基板.md",
-    "Roger baker.md",
-    "notes/Quartz.md",
+    "notes/この研究ノートについて.md",
+    "notes/Homemade Thin-Film Transistor Experiments.md",
+    "notes/スピンコーター.md",
+    "notes/DIY半導体.md",
     "notes/Hugo.md",
+    "notes/Jeri Ellsworth.md",
+    "notes/Obsidian.md",
+    "Roger baker.md",
     "notes/AxiDraw.md",
     "_index.md",
-    "notes/diy-semiconductor/DIY半導体.md",
-    "notes/この研究ノートについて.md"
+    "notes/diy-semiconductor/DIY半導体.md"
   ]
 }
