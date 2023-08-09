@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d18c96e7806f0eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/DIY半導体.md",
+                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/DIY半導体.md",
+                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/DIY半導体.md"
+                "file": "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md"
               }
             }
           }
@@ -185,16 +197,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df7027abeaef14d1",
+  "active": "8d18c96e7806f0eb",
   "lastOpenFiles": [
+    "notes/Quartz.md",
+    "notes/DIY半導体.md",
+    "notes/Zinc Oxide­Based Thin­Film Transistor Experiments, Episode I.md",
     "notes/Obsidian.md",
     "notes/Hugo.md",
     "notes/オルタナティブ電子基板.md",
     "notes/AxiDraw.md",
     "_index.md",
-    "notes/DIY半導体.md",
     "notes/diy-semiconductor/DIY半導体.md",
-    "notes/この研究ノートについて.md",
-    "notes/Quartz.md"
+    "notes/この研究ノートについて.md"
   ]
 }
