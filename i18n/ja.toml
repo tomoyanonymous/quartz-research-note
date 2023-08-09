@@ -1,0 +1,65 @@
+[404_message]
+other = "ページが見つかりませんでした。（非公開設定になっている可能性もあります）"
+
+[404_back]
+other = "↳ トップページに戻る"
+
+[all_posts]
+other = "All {{.Title}}"
+
+[last_updated]
+other = "最終更新"
+
+[notes_count]
+other = "このタグがついた記事の数"
+
+[first_10]
+other = "最初の10件を表示しています"
+
+[tag]
+other = "タグ"
+
+[backlinks]
+other = "バックリンク"
+
+[no_backlinks]
+other = "バックリンクはありません"
+
+[home]
+other = "トップページ"
+
+[light_mode]
+other = "ライトモード"
+
+[dark_mode]
+other = "ダークモード"
+
+[edit_source]
+other = "このノートを編集する"
+
+[interactive_graph]
+other = "Interactive Graph"
+
+[search]
+other = "検索"
+
+[search_icon]
+other = "検索アイコン"
+
+[icon_search]
+other = "アイコンをクリックして検索"
+
+[recent_notes]
+other = "最近のノート"
+
+[first_3_notes]
+other = "first 3 {{ .notes }}"
+
+[search_for_something]
+other = "Search for something..."
+
+[toc]
+other = "目次"
+
+[copyright]
+other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
