@@ -1,4 +1,5 @@
 ---
+title: Hugo
 tags:
 - tools
 ---
