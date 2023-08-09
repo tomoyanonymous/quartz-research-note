@@ -59,12 +59,12 @@
             }
           },
           {
-            "id": "5eec0c7afe421f7a",
+            "id": "b7387fa85b04c73e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kit of No Parts.md",
+                "file": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kit of No Parts.md"
+                "file": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md"
               }
             }
           }
@@ -169,13 +169,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5eec0c7afe421f7a",
+  "active": "b7387fa85b04c73e",
   "lastOpenFiles": [
     "オルタナティブ電子基板.md",
+    "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
+    "ファイバーレーザー加工機.md",
     "Kit of No Parts.md",
+    "Hannah Perner-Wilson.md",
+    "High-low-tech Lab.md",
     "Hugo.md",
     "DIY半導体.md",
-    "ファイバーレーザー加工機.md",
     "Untitled 1.md",
     "Untitled.md",
     "Jeri Ellsworth.md",
