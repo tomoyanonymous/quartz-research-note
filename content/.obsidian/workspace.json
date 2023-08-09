@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#semicondoctor",
+                "query": "tag:#place",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,12 +172,13 @@
   },
   "active": "b7387fa85b04c73e",
   "lastOpenFiles": [
-    "オルタナティブ電子基板.md",
+    "High-low-tech Lab.md",
+    "Small Artifacts Lab.md",
     "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
+    "オルタナティブ電子基板.md",
     "ファイバーレーザー加工機.md",
     "Kit of No Parts.md",
     "Hannah Perner-Wilson.md",
-    "High-low-tech Lab.md",
     "Hugo.md",
     "DIY半導体.md",
     "Untitled 1.md",
@@ -195,7 +197,6 @@
     "templates/post.md",
     "Obsidian.md",
     "tags.md",
-    "Roger baker.md",
-    "notes/diy-semiconductor/DIY半導体.md"
+    "Roger baker.md"
   ]
 }

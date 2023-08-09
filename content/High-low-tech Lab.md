@@ -1,8 +1,10 @@
 ---
 title: High-low-tech Lab
 tags: 
-- place
+- group
 ---
 
+MIT Media Labの中で2008-2014に[[Leah Buechley]]が主催していたラボ
 
 https://highlowtech.org/
+
