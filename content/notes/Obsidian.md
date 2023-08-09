@@ -1,4 +1,5 @@
 ---
+title: Obsidian
 tags:
 - obsidian
 - tools
