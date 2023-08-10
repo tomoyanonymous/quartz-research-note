@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8f5a03feb5450138",
+        "id": "1090f9719d1d48ac",
         "type": "tabs",
         "children": [
           {
-            "id": "a5296a0217165aa7",
+            "id": "41ba3ba6c92a776a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Discovery of the Point-Contact Transistor.md",
+                "file": "_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,72 @@
             }
           },
           {
-            "id": "f05b57d3fb29ecbf",
+            "id": "40f5c99d16b30777",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "スピンコーター.md",
+                "file": "論文の管理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c80d4de131b69600",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2847b42b90737125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "オルタナティブ電子基板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b01d90a2ff7616e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "オルタナティブ電子基板.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7387fa85b04c73e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Small Artifacts Lab.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tools/hardware",
+                "query": "tag:#place",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +163,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Discovery of the Point-Contact Transistor.md"
+                "file": "論文の管理.md"
+              }
+            }
+          },
+          {
+            "id": "836227447092bfa1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "論文の管理.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54ff8193171f482b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "論文の管理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -131,44 +212,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5296a0217165aa7",
+  "active": "40f5c99d16b30777",
   "lastOpenFiles": [
-    "論文の管理.md",
-    "この研究ノートについて.md",
-    "スピンコーター.md",
-    "Maasi - A 3D printed spin coater with touchscreen.md",
-    "Zotero.md",
-    "Obsidian.md",
-    "Hugo.md",
-    "AxiDraw.md",
-    "ファイバーレーザー加工機.md",
-    "The Discovery of the Point-Contact Transistor.md",
-    "Sam Zeloof.md",
-    "読書メモ.md",
-    "点接触トランジスタ.md",
-    "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
-    "芸術とデザインとしてのDIY半導体.md",
-    "自宅サーバー.md",
-    "Quartz.md",
-    "_index.md",
-    "DIY半導体.md",
+    "酸化亜鉛系トランジスタ.md",
     "酸化亜鉛.md",
     "酢酸亜鉛.md",
-    "酸化亜鉛系トランジスタ.md",
+    "芸術とデザインとしてのDIY半導体.md",
+    "点接触トランジスタ.md",
+    "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
+    "templates/zotero_template.md",
+    "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment.md",
+    "The Discovery of the Point-Contact Transistor.md",
+    "Ryan Jordan.md",
+    "Robert Adams.md",
     "Pulsed Laser Ablation - A Facile and Low-Temperature Fabrication of Highly Oriented n-Type Zinc Oxide Thin Films.md",
+    "Nyle Steiner.md",
+    "Maasi - A 3D printed spin coater with touchscreen.md",
+    "DIY Electronics - Revealing the Material Systems of Computation.md",
     "Celebrating 65th Anniversary of the Transistor.md",
-    "オルタナティブ電子基板.md",
-    "Scientific American 1970年6月号.md",
+    "Untitled.md",
+    "論文の管理.md",
+    "この研究ノートについて.md",
+    "自宅サーバー.md",
+    "Quartz.md",
     "img/server3.jpg",
-    "img/server2.jpg",
     "img/server1.jpg",
+    "img/server2.jpg",
     "img",
-    "notes/images/obsidian-settings.png",
-    "notes/images/google-domains.png",
-    "notes/images/github-pages.png",
-    "notes/images/fork.png",
-    "notes/images/github-actions.png",
-    "notes/images",
-    "notes"
+    "_index.md",
+    "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
+    "エリザベス・ブレイク.md",
+    "読書メモ.md",
+    "DIY半導体.md"
   ]
 }
