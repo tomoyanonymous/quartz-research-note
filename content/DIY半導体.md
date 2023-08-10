@@ -52,12 +52,9 @@ https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_tr
 
 [[Sam Zeloof]]
 
+[[Ryan Jordan]]
 
-#### Ryan Jordan
-
-https://makezine.com/article/science/making-transistors-out-of-iron-pyrite/
-http://www.ryanjordan.org/home.html
-https://monoskop.org/Ryan_Jordan
+[[Robert Adams]]
 
 ### その他
 
