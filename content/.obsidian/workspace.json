@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIY半導体.md",
+                "file": "Homemade Thin-Film Transistor Experiments.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,11 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DIY半導体.md"
+                "file": "Homemade Thin-Film Transistor Experiments.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,8 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41ba3ba6c92a776a",
+  "active": "d1b7214b84e9e04d",
   "lastOpenFiles": [
+    "DIY半導体.md",
     "読書メモ.md",
     "自宅サーバー.md",
     "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
@@ -185,7 +187,6 @@
     "Kit of No Parts.md",
     "Hannah Perner-Wilson.md",
     "Hugo.md",
-    "DIY半導体.md",
     "Untitled 1.md",
     "Untitled.md",
     "Jeri Ellsworth.md",
