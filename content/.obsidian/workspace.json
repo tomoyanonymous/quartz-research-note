@@ -13,22 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "DIY半導体.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40f5c99d16b30777",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "論文の管理.md",
-                "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -85,8 +71,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,36 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "論文の管理.md"
-              }
-            }
-          },
-          {
-            "id": "836227447092bfa1",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "論文の管理.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "54ff8193171f482b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "論文の管理.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "DIY半導体.md"
               }
             }
           }
@@ -212,22 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40f5c99d16b30777",
+  "active": "41ba3ba6c92a776a",
   "lastOpenFiles": [
-    "Untitled.md",
-    "論文の管理.md",
-    "この研究ノートについて.md",
-    "自宅サーバー.md",
-    "Quartz.md",
-    "img/server3.jpg",
-    "img/server1.jpg",
-    "img/server2.jpg",
-    "img",
-    "_index.md",
-    "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
-    "エリザベス・ブレイク.md",
     "読書メモ.md",
-    "DIY半導体.md",
+    "自宅サーバー.md",
+    "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
+    "img/server3.jpg",
+    "img/server2.jpg",
+    "img/server1.jpg",
+    "img",
     "Small Artifacts Lab.md",
     "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
     "High-low-tech Lab.md",
@@ -236,12 +185,20 @@
     "Kit of No Parts.md",
     "Hannah Perner-Wilson.md",
     "Hugo.md",
+    "DIY半導体.md",
     "Untitled 1.md",
+    "Untitled.md",
     "Jeri Ellsworth.md",
     "スピンコーター.md",
     "Homemade Thin-Film Transistor Experiments.md",
     "AxiDraw.md",
     "Zotero.md",
-    "Sam Zeloof.md"
+    "論文の管理.md",
+    "_index.md",
+    "この研究ノートについて.md",
+    "Quartz.md",
+    "Sam Zeloof.md",
+    "Scientific American 1970年6月号.md",
+    "templates/post.md"
   ]
 }
