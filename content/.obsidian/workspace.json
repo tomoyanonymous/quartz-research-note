@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ファイバーレーザー加工機.md",
+                "file": "スピンコーター.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tools",
+                "query": "tag:#tools/hardware",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ファイバーレーザー加工機.md"
+                "file": "この研究ノートについて.md"
               }
             }
           }
@@ -132,15 +131,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f05b57d3fb29ecbf",
+  "active": "a5296a0217165aa7",
   "lastOpenFiles": [
-    "AxiDraw.md",
-    "Zotero.md",
-    "ファイバーレーザー加工機.md",
     "スピンコーター.md",
     "Maasi - A 3D printed spin coater with touchscreen.md",
-    "Hugo.md",
+    "Zotero.md",
     "Obsidian.md",
+    "Hugo.md",
+    "AxiDraw.md",
+    "ファイバーレーザー加工機.md",
     "The Discovery of the Point-Contact Transistor.md",
     "Sam Zeloof.md",
     "読書メモ.md",
