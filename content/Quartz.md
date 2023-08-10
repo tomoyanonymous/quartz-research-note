@@ -15,7 +15,7 @@ https://github.com/jackyzha0/quartz
 
 ## いいところ
 
-- Hugoのテンプレートの黒魔術を使ってWikilink`[[link]]`を相互リンクに変換してくれる
+- [[Hugo]]のテンプレートの黒魔術を使ってWikilink`[[link]]`を相互リンクに変換してくれる
 - なんかSPAになってる([million](https://million.dev/)というのを使ってるらしい)のでめっちゃ早い
 - 全文検索もできる
 
@@ -25,5 +25,5 @@ https://github.com/jackyzha0/quartz
 	- 記事未作成だったり、titleが設定されてないリンクはGraph View上で日本語がうまく表示されない（ファイル名だと日本語がエスケープされてんのかな）
 	- →パーセントエンコーディングをデコードするようにしたら治った。
 		- [プルリク立てた](https://github.com/jackyzha0/quartz/pull/366)
-- 手元でサーバー立ててプレビューするのがちょっと辛い（hugo-obsidianコマンドが手元で使える必要があるので、GoをインストールかDockerイメージを利用する感じになる）
+- 手元でサーバー立ててプレビューするのがちょっと辛い（hugo-obsidianコマンドが手元で使える必要があるので、Goをインストールか[[Docker]]イメージを利用する感じになる）
 	- 結局インストールすることになった

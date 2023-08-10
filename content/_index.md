@@ -20,4 +20,10 @@ https://matsuuratomoya.com
 
 ### [タグ一覧](/tags)
 
-文字中のタグは反映されない（ #research ）とか
+よく使いそうなタグ
+
+- [person](/tags/person)
+- [group](/tags/group)
+- [paper](/tags/paper)
+- [tools](tags/tools)
+- [art](/tags/art)
