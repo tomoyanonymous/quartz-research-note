@@ -2,7 +2,8 @@
 title: Obsidian
 tags:
 - obsidian
-- tools/software
+- tools
+- software
 ---
 
 ## Obsidianとは
