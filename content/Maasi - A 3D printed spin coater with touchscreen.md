@@ -9,7 +9,7 @@ citekey: carbonellrubioMaasi3DPrinted2022
 tags:
 - research
 - paper
-- tools
+- tools/hardware
 alias: Maasi
 ---
 Carbonell Rubio, Dani, Willi WeberとEnrico Klotzsch. 2022. 「Maasi: A 3D Printed Spin Coater with Touchscreen」. _HardwareX_ 11 (4月): e00316. [https://doi.org/10.1016/j.ohx.2022.e00316](https://doi.org/10.1016/j.ohx.2022.e00316).

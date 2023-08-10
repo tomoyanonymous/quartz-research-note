@@ -1,7 +1,7 @@
 ---
 title: Zotero
 tags:
-- tools
+- tools/software
 ---
 
 https://zotero.org/
