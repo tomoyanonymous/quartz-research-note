@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "点接触トランジスタ.md",
+                "file": "酸化亜鉛系トランジスタ.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "点接触トランジスタ.md"
+                "file": "酸化亜鉛系トランジスタ.md"
               }
             }
           }
@@ -146,8 +146,10 @@
   },
   "active": "d6b17a1df3dfed28",
   "lastOpenFiles": [
-    "Celebrating 65th Anniversary of the Transistor.md",
+    "Pulsed Laser Ablation - A Facile and Low-Temperature Fabrication of Highly Oriented n-Type Zinc Oxide Thin Films.md",
+    "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
     "点接触トランジスタ.md",
+    "Celebrating 65th Anniversary of the Transistor.md",
     "The Discovery of the Point-Contact Transistor.md",
     "DIY半導体.md",
     "酸化亜鉛系トランジスタ.md",
@@ -170,8 +172,6 @@
     "芸術とデザインとしてのDIY半導体.md",
     "自宅サーバー.md",
     "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
-    "ファイバーレーザー加工機.md",
-    "templates/zotero_template.md",
     "img/server3.jpg",
     "img/server2.jpg",
     "img/server1.jpg",
