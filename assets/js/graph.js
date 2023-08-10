@@ -242,7 +242,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       const str = content[d.id]?.title ||
         decodeURI(d.id.charAt(1).toUpperCase() + d.id.slice(2))
           .replace("-", " ");
-      str.slice(0, 30) + (str.length > 30 ? "..." : "")
+      return str.slice(0, 30) + (str.length > 30 ? "..." : "")
     })
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
