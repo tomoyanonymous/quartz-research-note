@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sam Zeloof.md",
+                "file": "芸術とデザインとしてのDIY半導体.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sam Zeloof.md"
+                "file": "芸術とデザインとしてのDIY半導体.md"
               }
             }
           }
@@ -144,8 +144,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b74da5b62cd79f0",
+  "active": "d6b17a1df3dfed28",
   "lastOpenFiles": [
+    "Sam Zeloof.md",
     "酸化亜鉛.md",
     "酢酸亜鉛.md",
     "酸化亜鉛系トランジスタ.md",
@@ -157,7 +158,6 @@
     "DIY半導体.md",
     "オルタナティブ電子基板.md",
     "Maasi - A 3D printed spin coater with touchscreen.md",
-    "Sam Zeloof.md",
     "Scientific American 1970年6月号.md",
     "スピンコーター.md",
     "Kit of No Parts.md",
