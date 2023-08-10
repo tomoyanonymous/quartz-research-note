@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quartz.md",
+                "file": "スピンコーター.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,12 +97,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quartz.md"
+                "file": "スピンコーター.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -120,6 +119,12 @@
   },
   "active": "31ed75459fdf3119",
   "lastOpenFiles": [
+    "Kit of No Parts.md",
+    "Maasi - A 3D printed spin coater with touchscreen.md",
+    "スピンコーター.md",
+    "Sam Zeloof.md",
+    "Nyle Steiner.md",
+    "Quartz.md",
     "この研究ノートについて.md",
     "Robert Adams.md",
     "DIY Electronics - Revealing the Material Systems of Computation.md",
@@ -133,7 +138,6 @@
     "自宅サーバー.md",
     "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
     "ファイバーレーザー加工機.md",
-    "スピンコーター.md",
     "オルタナティブ電子基板.md",
     "templates/zotero_template.md",
     "img/server3.jpg",
@@ -144,12 +148,7 @@
     "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment.md",
     "Small Artifacts Lab.md",
     "Scientific American 1970年6月号.md",
-    "Sam Zeloof.md",
-    "Quartz.md",
     "Obsidian.md",
-    "Nyle Steiner.md",
-    "Kit of No Parts.md",
-    "Jeri Ellsworth.md",
     "notes/images/obsidian-settings.png",
     "notes/images/google-domains.png",
     "notes/images/github-pages.png",
