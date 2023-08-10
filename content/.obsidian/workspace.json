@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "論文の管理.md",
+                "file": "読書メモ.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "論文の管理.md"
+                "file": "読書メモ.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "論文の管理.md",
+                "file": "読書メモ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "論文の管理.md",
+                "file": "読書メモ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +212,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40f5c99d16b30777",
+  "active": "0b74da5b62cd79f0",
   "lastOpenFiles": [
+    "論文の管理.md",
     "酸化亜鉛系トランジスタ.md",
     "酸化亜鉛.md",
     "酢酸亜鉛.md",
@@ -231,7 +232,6 @@
     "DIY Electronics - Revealing the Material Systems of Computation.md",
     "Celebrating 65th Anniversary of the Transistor.md",
     "Untitled.md",
-    "論文の管理.md",
     "この研究ノートについて.md",
     "自宅サーバー.md",
     "Quartz.md",
