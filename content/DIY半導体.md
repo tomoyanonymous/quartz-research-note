@@ -20,6 +20,10 @@ tags:
 [[酸化亜鉛系トランジスタ]]
 
 
+### 有機トランジスタ
+
+[[Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment]]
+
 ### 歴史
 
 #### halestrom 
@@ -42,13 +46,11 @@ https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_tr
 
 ### その他、エクストリームDIY
 
-#### [[Nyle Steiner]]
+**[[Nyle Steiner]]**
 
-http://www.sparkbangbuzz.com/  
+[[Jeri Ellsworth]]
 
-#### [[Jeri Ellsworth]]
-
-##### [[Sam Zeloof]]
+[[Sam Zeloof]]
 
 
 #### Ryan Jordan
