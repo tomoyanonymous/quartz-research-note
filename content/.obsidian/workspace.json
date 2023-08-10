@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "論文の管理.md",
+                "file": "Zotero.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#paper",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "論文の管理.md"
+                "file": "Zotero.md"
               }
             }
           }
@@ -133,12 +133,15 @@
   },
   "active": "f05b57d3fb29ecbf",
   "lastOpenFiles": [
-    "この研究ノートについて.md",
-    "芸術とデザインとしてのDIY半導体.md",
-    "論文の管理.md",
+    "自宅サーバー.md",
     "Zotero.md",
-    "DIY半導体.md",
+    "Hugo.md",
     "Quartz.md",
+    "この研究ノートについて.md",
+    "_index.md",
+    "論文の管理.md",
+    "芸術とデザインとしてのDIY半導体.md",
+    "DIY半導体.md",
     "点接触トランジスタ.md",
     "Sam Zeloof.md",
     "酸化亜鉛.md",
@@ -156,9 +159,6 @@
     "Nyle Steiner.md",
     "Robert Adams.md",
     "DIY Electronics - Revealing the Material Systems of Computation.md",
-    "Ryan Jordan.md",
-    "jordanDIYElectronicsRevealing2015.md",
-    "Homemade Thin-Film Transistor Experiments.md",
     "img/server3.jpg",
     "img/server2.jpg",
     "img/server1.jpg",
