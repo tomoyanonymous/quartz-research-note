@@ -179,7 +179,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         }
       })
     })
-    .on("mouseover", function(_, d) {
+    .on("mouseover", function (_, d) {
       d3.selectAll(".node").transition().duration(100).attr("fill", "var(--g-node-inactive)")
 
       const neighbours = parseIdsFromLinks([
@@ -212,7 +212,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .style('font-size', bigFont + 'em')
         .attr('dy', d => nodeRadius(d) + 20 + 'px') // radius is in px
     })
-    .on("mouseleave", function(_, d) {
+    .on("mouseleave", function (_, d) {
       d3.selectAll(".node").transition().duration(200).attr("fill", color)
 
       const currentId = d.id
@@ -238,7 +238,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .attr("dx", 0)
     .attr("dy", (d) => nodeRadius(d) + 8 + "px")
     .attr("text-anchor", "middle")
-    .text((d) => content[d.id]?.title || (decodeURI(d.id.charAt(1).toUpperCase() + d.id.slice(2))).replace("-", " "))
+    .text((d) => content[d.id]?.title || (decodeURI(d.id.charAt(1).toUpperCase() + d.id.slice(2, 30) + (d.id.length > 30 ? "" : "..."))).replace("-", " "))
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
     .style('font-size', fontSize + 'em')
