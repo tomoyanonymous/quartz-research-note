@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "41ba3ba6c92a776a",
+            "id": "c80d4de131b69600",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DIY半導体.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b049e4d5999a8e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "論文の管理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,12 +21,12 @@
             }
           },
           {
-            "id": "c80d4de131b69600",
+            "id": "d54e49c1ed0704de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "Nyle Steiner.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "論文の管理.md"
+                "file": "Nyle Steiner.md"
               }
             }
           }
@@ -183,11 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b049e4d5999a8e1",
+  "active": "d54e49c1ed0704de",
   "lastOpenFiles": [
-    "酸化亜鉛系トランジスタ.md",
-    "Zotero.md",
     "DIY半導体.md",
+    "Nyle Steiner.md",
+    "AxiDraw.md",
+    "酸化亜鉛系トランジスタ.md",
+    "_index.md",
+    "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment.md",
+    "templates/zotero_template.md",
+    "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
+    "論文の管理.md",
+    "Zotero.md",
     "Homemade Thin-Film Transistor Experiments.md",
     "読書メモ.md",
     "自宅サーバー.md",
@@ -197,7 +192,6 @@
     "img/server1.jpg",
     "img",
     "Small Artifacts Lab.md",
-    "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver.md",
     "High-low-tech Lab.md",
     "オルタナティブ電子基板.md",
     "ファイバーレーザー加工機.md",
@@ -205,15 +199,9 @@
     "Hannah Perner-Wilson.md",
     "Hugo.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Jeri Ellsworth.md",
     "スピンコーター.md",
-    "AxiDraw.md",
-    "論文の管理.md",
-    "_index.md",
     "この研究ノートについて.md",
-    "Quartz.md",
-    "Sam Zeloof.md",
-    "Scientific American 1970年6月号.md"
+    "Quartz.md"
   ]
 }
