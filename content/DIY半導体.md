@@ -26,6 +26,8 @@ tags:
 
 ### 歴史
 
+### [[点接触トランジスタ]]
+
 #### halestrom 
 
 Copper Oxide Diode
@@ -90,5 +92,5 @@ https://www.youtube.com/watch?v=7UbkrZyNgpo
 
 [[Maasi]] (DIY [[スピンコーター]] )
 
-https://github.com/klotzsch-lab/Maasi
+
 
