@@ -15,10 +15,6 @@ The Transistor Enigma
 
 https://web.archive.org/web/20090404052348/http://www.aethmogen.com/wri/radams/tenigma1/toc.shtml
 
-書いてる↓
-
-[[DIY Electronics - Revealing the Material Systems of Computation]]
-
 "THE ADAMS CRYSTAL AMPLIFIER
 
 The Adams Crystal Amplifier was invented, 1933, by Robert G. Adams, at the age of thirteen years, at 418 Queen Street West, Hastings, Hawkes Bay, New Zealand, the assembly of which is depicted, as Adams described it, in the artist's impression."
