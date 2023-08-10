@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1090f9719d1d48ac",
+        "id": "14da260fe3910a57",
         "type": "tabs",
         "children": [
           {
-            "id": "b01d90a2ff7616e3",
+            "id": "31ed75459fdf3119",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Quartz.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -91,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quartz.md"
+              }
             }
           }
         ],
@@ -111,8 +118,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b01d90a2ff7616e3",
+  "active": "31ed75459fdf3119",
   "lastOpenFiles": [
+    "この研究ノートについて.md",
+    "Robert Adams.md",
+    "DIY Electronics - Revealing the Material Systems of Computation.md",
+    "Ryan Jordan.md",
+    "jordanDIYElectronicsRevealing2015.md",
+    "Homemade Thin-Film Transistor Experiments.md",
     "酸化亜鉛系トランジスタ.md",
     "論文の管理.md",
     "読書メモ.md",
@@ -122,9 +135,7 @@
     "ファイバーレーザー加工機.md",
     "スピンコーター.md",
     "オルタナティブ電子基板.md",
-    "この研究ノートについて.md",
     "templates/zotero_template.md",
-    "jordanDIYElectronicsRevealing2015.md",
     "img/server3.jpg",
     "img/server2.jpg",
     "img/server1.jpg",
@@ -134,15 +145,11 @@
     "Small Artifacts Lab.md",
     "Scientific American 1970年6月号.md",
     "Sam Zeloof.md",
-    "Ryan Jordan.md",
-    "Robert Adams.md",
     "Quartz.md",
     "Obsidian.md",
     "Nyle Steiner.md",
     "Kit of No Parts.md",
     "Jeri Ellsworth.md",
-    "Hugo.md",
-    "Homemade Thin-Film Transistor Experiments.md",
     "notes/images/obsidian-settings.png",
     "notes/images/google-domains.png",
     "notes/images/github-pages.png",

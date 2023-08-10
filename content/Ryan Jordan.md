@@ -12,7 +12,7 @@ https://makezine.com/article/science/making-transistors-out-of-iron-pyrite/
 
 [[Robert Adams]]の Crystal Amplifier (1933)というのが元になってるらしい
 
-[[jordanDIYElectronicsRevealing2015]]
+[[DIY Electronics - Revealing the Material Systems of Computation]]
 
 
 
