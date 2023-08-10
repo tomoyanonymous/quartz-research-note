@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastodon.md",
+                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mastodon.md"
+                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md"
               }
             }
           },
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mastodon.md",
+                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mastodon.md",
+                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,14 +227,15 @@
   },
   "active": "2ec36d640ad89443",
   "lastOpenFiles": [
-    "自宅サーバー.md",
+    "読書メモ.md",
+    "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
     "Mastodon.md",
+    "自宅サーバー.md",
     "点接触トランジスタ.md",
     "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
     "Maasi - A 3D printed spin coater with touchscreen.md",
     "この研究ノートについて.md",
     "クリエイティブであれ──新しい文化産業とジェンダー - アンジェラ・マクロビー.md",
-    "読書メモ.md",
     "論文の管理.md",
     "酸化亜鉛系トランジスタ.md",
     "酸化亜鉛.md",
@@ -255,7 +256,6 @@
     "img/server3.jpg",
     "img/server1.jpg",
     "img/server2.jpg",
-    "img",
-    "_index.md"
+    "img"
   ]
 }
