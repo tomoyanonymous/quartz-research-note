@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "この研究ノートについて.md",
+                "file": "The Discovery of the Point-Contact Transistor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "この研究ノートについて.md"
+                "file": "The Discovery of the Point-Contact Transistor.md"
               }
             }
           }
@@ -133,6 +133,8 @@
   },
   "active": "a5296a0217165aa7",
   "lastOpenFiles": [
+    "論文の管理.md",
+    "この研究ノートについて.md",
     "スピンコーター.md",
     "Maasi - A 3D printed spin coater with touchscreen.md",
     "Zotero.md",
@@ -148,9 +150,7 @@
     "芸術とデザインとしてのDIY半導体.md",
     "自宅サーバー.md",
     "Quartz.md",
-    "この研究ノートについて.md",
     "_index.md",
-    "論文の管理.md",
     "DIY半導体.md",
     "酸化亜鉛.md",
     "酢酸亜鉛.md",
