@@ -22,10 +22,13 @@
       "outputPathTemplate": "{{title}}.md",
       "imageOutputPathTemplate": "img/{{citekey}}/",
       "imageBaseNameTemplate": "image",
-      "cslStyle": "chicago-author-date"
+      "cslStyle": "chicago-author-date",
+      "templatePath": "templates/zotero_template.md"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": false,
-  "whichNotesToOpenAfterImport": "first-imported-note"
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "pdfExportImageOCR": true,
+  "pdfExportImageTesseractPath": "/usr/local/bin/tesseract"
 }
