@@ -48,13 +48,21 @@ https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_tr
 
 **[[Nyle Steiner]]**
 
-[[Jeri Ellsworth]]
+**[[Jeri Ellsworth]]**
 
-[[Sam Zeloof]]
+**[[Sam Zeloof]]**
 
-[[Ryan Jordan]]
+**[[Ryan Jordan]]**
 
-[[Robert Adams]]
+**[[Robert Adams]]**
+
+[[Ralf Baecker]]
+
+[[Martin Howse]]
+
+[[Ioana Vreme Moser]]
+
+[[芸術とデザインとしてのDIY半導体]]
 
 ### その他
 
