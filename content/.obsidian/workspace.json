@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zotero.md",
+                "file": "ファイバーレーザー加工機.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tools",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zotero.md"
+                "file": "ファイバーレーザー加工機.md"
               }
             }
           }
@@ -133,32 +134,32 @@
   },
   "active": "f05b57d3fb29ecbf",
   "lastOpenFiles": [
-    "自宅サーバー.md",
+    "AxiDraw.md",
     "Zotero.md",
+    "ファイバーレーザー加工機.md",
+    "スピンコーター.md",
+    "Maasi - A 3D printed spin coater with touchscreen.md",
     "Hugo.md",
+    "Obsidian.md",
+    "The Discovery of the Point-Contact Transistor.md",
+    "Sam Zeloof.md",
+    "読書メモ.md",
+    "点接触トランジスタ.md",
+    "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
+    "芸術とデザインとしてのDIY半導体.md",
+    "自宅サーバー.md",
     "Quartz.md",
     "この研究ノートについて.md",
     "_index.md",
     "論文の管理.md",
-    "芸術とデザインとしてのDIY半導体.md",
     "DIY半導体.md",
-    "点接触トランジスタ.md",
-    "Sam Zeloof.md",
     "酸化亜鉛.md",
     "酢酸亜鉛.md",
     "酸化亜鉛系トランジスタ.md",
     "Pulsed Laser Ablation - A Facile and Low-Temperature Fabrication of Highly Oriented n-Type Zinc Oxide Thin Films.md",
-    "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
     "Celebrating 65th Anniversary of the Transistor.md",
-    "The Discovery of the Point-Contact Transistor.md",
     "オルタナティブ電子基板.md",
-    "Maasi - A 3D printed spin coater with touchscreen.md",
     "Scientific American 1970年6月号.md",
-    "スピンコーター.md",
-    "Kit of No Parts.md",
-    "Nyle Steiner.md",
-    "Robert Adams.md",
-    "DIY Electronics - Revealing the Material Systems of Computation.md",
     "img/server3.jpg",
     "img/server2.jpg",
     "img/server1.jpg",

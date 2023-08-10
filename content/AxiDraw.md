@@ -1,7 +1,8 @@
 ---
 title: AxiDraw
 tags:
-- tools
+- tools/hardware
+- digital-fabrication/plotter
 ---
 
 Evil Mad Scientist社のプロッター
