@@ -6,20 +6,20 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "pandoc",
+      "name": "cite as pandoc",
       "format": "pandoc",
       "brackets": true
     },
     {
-      "name": "Chicago",
+      "name": "cite as Chicago",
       "format": "formatted-citation",
       "cslStyle": "chicago-author-date"
     }
   ],
   "exportFormats": [
     {
-      "name": "Import #1",
-      "outputPathTemplate": "{{citekey}}.md",
+      "name": "Import from Zotero",
+      "outputPathTemplate": "{{title}}.md",
       "imageOutputPathTemplate": "img/{{citekey}}/",
       "imageBaseNameTemplate": "image",
       "cslStyle": "chicago-author-date"
