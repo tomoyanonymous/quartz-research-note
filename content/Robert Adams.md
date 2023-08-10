@@ -15,6 +15,9 @@ The Transistor Enigma
 
 https://web.archive.org/web/20090404052348/http://www.aethmogen.com/wri/radams/tenigma1/toc.shtml
 
+書いてる↓
+
+[[DIY Electronics - Revealing the Material Systems of Computation]]
 
 "THE ADAMS CRYSTAL AMPLIFIER
 
