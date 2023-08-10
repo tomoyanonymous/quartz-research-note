@@ -17,19 +17,7 @@ tags:
 
 ### 金属酸化物
 
-#### 酸化亜鉛
-
- **[[Homemade Thin-Film Transistor Experiments]]**
-
-##### 酸化亜鉛薄膜の形成と物性・デバイス応用
-
-https://www.jstage.jst.go.jp/article/vss/62/7/62_20180376/_pdf/-char/ja
-
-溶液法の説明ある
-
-##### Direct Light Pattern Integration of Low-Temperature Solution-Processed All-Oxide Flexible Electronics
-
-https://pubs.acs.org/doi/full/10.1021/nn504420r
+[[酸化亜鉛系トランジスタ]]
 
 
 ### 歴史
