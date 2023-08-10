@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maasi - A 3D printed spin coater with touchscreen.md",
+                "file": "Mastodon.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maasi - A 3D printed spin coater with touchscreen.md"
+                "file": "Mastodon.md"
               }
             }
           },
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maasi - A 3D printed spin coater with touchscreen.md",
+                "file": "Mastodon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maasi - A 3D printed spin coater with touchscreen.md",
+                "file": "Mastodon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,18 +225,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b74da5b62cd79f0",
+  "active": "2ec36d640ad89443",
   "lastOpenFiles": [
+    "自宅サーバー.md",
+    "Mastodon.md",
+    "点接触トランジスタ.md",
+    "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
+    "Maasi - A 3D printed spin coater with touchscreen.md",
     "この研究ノートについて.md",
     "クリエイティブであれ──新しい文化産業とジェンダー - アンジェラ・マクロビー.md",
     "読書メモ.md",
-    "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
     "論文の管理.md",
     "酸化亜鉛系トランジスタ.md",
     "酸化亜鉛.md",
     "酢酸亜鉛.md",
     "芸術とデザインとしてのDIY半導体.md",
-    "点接触トランジスタ.md",
     "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
     "templates/zotero_template.md",
     "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment.md",
@@ -245,17 +248,14 @@
     "Robert Adams.md",
     "Pulsed Laser Ablation - A Facile and Low-Temperature Fabrication of Highly Oriented n-Type Zinc Oxide Thin Films.md",
     "Nyle Steiner.md",
-    "Maasi - A 3D printed spin coater with touchscreen.md",
     "DIY Electronics - Revealing the Material Systems of Computation.md",
     "Celebrating 65th Anniversary of the Transistor.md",
     "Untitled.md",
-    "自宅サーバー.md",
     "Quartz.md",
     "img/server3.jpg",
     "img/server1.jpg",
     "img/server2.jpg",
     "img",
-    "_index.md",
-    "エリザベス・ブレイク.md"
+    "_index.md"
   ]
 }
