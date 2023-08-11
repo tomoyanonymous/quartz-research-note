@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
+                "file": "読書メモ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "798eb3279f8bc8c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md"
+                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md"
               }
             }
           },
@@ -186,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
+                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
+                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,9 +238,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ec36d640ad89443",
+  "active": "798eb3279f8bc8c1",
   "lastOpenFiles": [
     "読書メモ.md",
+    "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
     "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
     "Mastodon.md",
     "自宅サーバー.md",
@@ -252,7 +266,6 @@
     "DIY Electronics - Revealing the Material Systems of Computation.md",
     "Celebrating 65th Anniversary of the Transistor.md",
     "Untitled.md",
-    "Quartz.md",
     "img/server3.jpg",
     "img/server1.jpg",
     "img/server2.jpg",
