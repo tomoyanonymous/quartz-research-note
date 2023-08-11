@@ -14,5 +14,4 @@ https://sayusha.com/books/-/isbn9784865283662
 
 ---
 
-デミロマンティックと言う言葉
 
