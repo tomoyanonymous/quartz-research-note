@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
+                "file": "_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7730224ae1419066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "多段階計算.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -189,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md"
+                "file": "多段階計算.md"
               }
             }
           },
@@ -199,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
+                "file": "多段階計算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
+                "file": "多段階計算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,18 +251,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61e13dd8520ad3a1",
+  "active": "7730224ae1419066",
   "lastOpenFiles": [
+    "音楽プログラミング言語.md",
+    "多段階計算.md",
+    "_index.md",
+    "オルタナティブ電子基板.md",
+    "この研究ノートについて.md",
+    "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
     "読書メモ.md",
     "羽生有希.md",
-    "ACE アセクシュアルから見たセックスと社会のこと - アンジェラ・チェン.md",
     "トランスジェンダー入門 - 周司あきら、高井ゆと里.md",
     "Mastodon.md",
     "自宅サーバー.md",
     "点接触トランジスタ.md",
     "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
     "Maasi - A 3D printed spin coater with touchscreen.md",
-    "この研究ノートについて.md",
     "クリエイティブであれ──新しい文化産業とジェンダー - アンジェラ・マクロビー.md",
     "論文の管理.md",
     "酸化亜鉛系トランジスタ.md",
@@ -262,10 +279,6 @@
     "The Discovery of the Point-Contact Transistor.md",
     "Ryan Jordan.md",
     "Robert Adams.md",
-    "Pulsed Laser Ablation - A Facile and Low-Temperature Fabrication of Highly Oriented n-Type Zinc Oxide Thin Films.md",
-    "Nyle Steiner.md",
-    "DIY Electronics - Revealing the Material Systems of Computation.md",
-    "Celebrating 65th Anniversary of the Transistor.md",
     "img/server3.jpg",
     "img/server1.jpg",
     "img/server2.jpg",
