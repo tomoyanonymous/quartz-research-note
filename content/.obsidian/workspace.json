@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homemade Thin-Film Transistor Experiments.md",
+                "file": "酸化亜鉛系トランジスタ.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homemade Thin-Film Transistor Experiments.md"
+                "file": "酸化亜鉛系トランジスタ.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homemade Thin-Film Transistor Experiments.md",
+                "file": "酸化亜鉛系トランジスタ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homemade Thin-Film Transistor Experiments.md",
+                "file": "酸化亜鉛系トランジスタ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7387fa85b04c73e",
+  "active": "0b74da5b62cd79f0",
   "lastOpenFiles": [
+    "酢酸亜鉛.md",
     "酸化亜鉛系トランジスタ.md",
     "Homemade Thin-Film Transistor Experiments.md",
-    "酢酸亜鉛.md",
     "酸化亜鉛.md",
     "点接触トランジスタ.md",
     "Pasted image 20230814144714.png",
