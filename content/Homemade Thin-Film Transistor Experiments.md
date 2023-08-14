@@ -164,6 +164,7 @@ https://www.andaquartergetsyoucoffee.com/wp/wp-content/uploads/2009/05/zinc-oxid
 ## Episode 2
 
 https://web.archive.org/web/20120113013520/http://www.andaquartergetsyoucoffee.com/wp/wp-content/uploads/2009/06/zinc-oxide-experiments-ii.pdf
+
 ### 固体誘電体の進歩
 
 私は、フッ化スズ酸化物（FTO）でコーティングされたガラスの上に妥当と思われる酸化リン酸アルミニウム（AlPO）皮膜を生成する前駆体溶液を何とかこしらえた。2つの問題が発生したが、1つは小さなもので、もう1つは重大なものである。
