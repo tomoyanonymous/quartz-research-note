@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "酢酸亜鉛.md",
+                "file": "Homemade Thin-Film Transistor Experiments.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "酢酸亜鉛.md"
+                "file": "Homemade Thin-Film Transistor Experiments.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "酢酸亜鉛.md",
+                "file": "Homemade Thin-Film Transistor Experiments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "酢酸亜鉛.md",
+                "file": "Homemade Thin-Film Transistor Experiments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,8 +148,12 @@
   },
   "active": "b7387fa85b04c73e",
   "lastOpenFiles": [
-    "Pasted image 20230814144714.png",
     "酸化亜鉛系トランジスタ.md",
+    "Homemade Thin-Film Transistor Experiments.md",
+    "酢酸亜鉛.md",
+    "酸化亜鉛.md",
+    "点接触トランジスタ.md",
+    "Pasted image 20230814144714.png",
     "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク.md",
     "結婚の自由 「最小の結婚」から考える - 植村恒一郎、横田祐美子、深海菊絵、岡野八代、志田哲之、阪井裕一郎、久保田裕之.md",
     "Small Artifacts Lab.md",
@@ -166,12 +170,9 @@
     "羽生有希.md",
     "Mastodon.md",
     "自宅サーバー.md",
-    "点接触トランジスタ.md",
     "Maasi - A 3D printed spin coater with touchscreen.md",
     "クリエイティブであれ──新しい文化産業とジェンダー - アンジェラ・マクロビー.md",
     "論文の管理.md",
-    "酸化亜鉛.md",
-    "酢酸亜鉛.md",
     "芸術とデザインとしてのDIY半導体.md",
     "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
     "img/server3.jpg",
