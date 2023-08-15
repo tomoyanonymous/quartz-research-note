@@ -81,6 +81,11 @@ https://brainwagon.org/2011/05/20/diy-fethome-made-transistor-scientific-america
 
 ## ツール系
 
+DIY 1200°C Tube Furnace
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oqOlrGPgng8" title="Building a 1200°C Tube Furnace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 openflexture(顕微鏡)
 
 https://openflexure.org/
