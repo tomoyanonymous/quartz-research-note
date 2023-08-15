@@ -15,4 +15,6 @@ DAWをプログラマブルにする試み
 
 クリップのサムネイル生成はgeneratorじゃなくてregion側でやろう
 
-fileplayerはgeneratorからregionに移そう
+fileplayerのui実装もgeneratorからregionに移そう
+
+そうなるとaudio側の実装もそっちに合わせるのが自然だよな・・・
