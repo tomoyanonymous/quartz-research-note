@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "酸化亜鉛.md",
+                "file": "酢酸亜鉛.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "酸化亜鉛.md"
+                "file": "酢酸亜鉛.md"
               }
             }
           }
@@ -132,9 +132,9 @@
   },
   "active": "a5296a0217165aa7",
   "lastOpenFiles": [
-    "酢酸亜鉛.md",
-    "酸化亜鉛.md",
     "酸化亜鉛系トランジスタ.md",
+    "酸化亜鉛.md",
+    "酢酸亜鉛.md",
     "The Discovery of the Point-Contact Transistor.md",
     "音楽プログラミング言語.md",
     "羽生有希.md",
