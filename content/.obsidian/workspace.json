@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "酢酸亜鉛.md",
+                "file": "酸化亜鉛.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "酢酸亜鉛.md"
+                "file": "酸化亜鉛.md"
               }
             }
           }
@@ -130,8 +130,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b74da5b62cd79f0",
+  "active": "a5296a0217165aa7",
   "lastOpenFiles": [
+    "酢酸亜鉛.md",
     "酸化亜鉛.md",
     "酸化亜鉛系トランジスタ.md",
     "The Discovery of the Point-Contact Transistor.md",
@@ -158,7 +159,6 @@
     "Sam Zeloof.md",
     "読書メモ.md",
     "点接触トランジスタ.md",
-    "スプレー熱分解法による酸化亜鉛薄膜の低温大気作製.md",
     "img/server3.jpg",
     "img/server2.jpg",
     "img/server1.jpg",
