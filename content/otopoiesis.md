@@ -43,11 +43,15 @@ struct UI<'a>{
 	state: &'a mut State
 }
 impl<'a> egui::Widget for UI<'a>{
-	fn ui
+	fn ui(self, ui: &mut egui::Ui) -> egui::Response {
+		///...
+	}
 }
 ```
 
 eguiはimmiditate モードだから毎フレームこのUI型を生成している（egui標準のSliderとかもこの方式）
+
+オーディオプロセッサーもこのやり方にできるか？
 
 
 ## 開発メモ
