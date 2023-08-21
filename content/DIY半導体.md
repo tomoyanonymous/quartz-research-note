@@ -1,10 +1,11 @@
 ---
-title: DIY半導体
 tags:
 - research
 - survey
 - semiconductor
 ---
+
+#research
 
 とりあえず再現実験系
 
