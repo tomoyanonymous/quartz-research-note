@@ -1,9 +1,4 @@
----
-title: "Fibercuit: Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver"
-tags:
-- research
-- paper
----
+#research #paper 
 
 [University of Maryland](https://www.umd.edu/)の[[Small Artifacts Lab]]による研究
 
