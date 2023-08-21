@@ -1,6 +1,5 @@
 ---
 title: Matsuura Tomoya Research Note 
-enableToc: false
 ---
 
 ### 著者
@@ -26,5 +25,5 @@ https://matsuuratomoya.com
 - [person](/tags/person)
 - [group](/tags/group)
 - [paper](/tags/paper)
-- [tools](tags/tools)
+- [tools](/tags/tools)
 - [art](/tags/art)
