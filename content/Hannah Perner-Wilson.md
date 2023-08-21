@@ -1,8 +1,4 @@
----
-title: Hannah Perner-Wilson
-tags:
-- person
----
+#person
 
 MIT Media Labの[[High-low-tech Lab]]で活動していた
 

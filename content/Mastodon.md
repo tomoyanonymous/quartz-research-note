@@ -1,10 +1,4 @@
----
-title: Mastodon
-tags:
-- software
-- server
-- self-hosted
----
+#software #server #self-hosted 
 
 分散型SNS。
 
