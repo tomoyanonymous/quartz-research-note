@@ -1,10 +1,4 @@
----
-title: Homemade Thin-Film Transistor Experiments
-tags:
-- translated
-- survey
-- semiconductor
----
+#translated #semiconductor #survey 
 
 And a Quarter gets You Coffee(本名不明、2009年ごろ)
 

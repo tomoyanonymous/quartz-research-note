@@ -1,9 +1,4 @@
----
-title: Hugo
-tags:
-- tools
-- software
----
+#tools #software 
 
 MarkdownのコンテンツをWebサイトにするStatic Site Generator
 

@@ -22,8 +22,8 @@ https://matsuuratomoya.com
 
 よく使いそうなタグ
 
-- [person](/tags/person)
-- [group](/tags/group)
-- [paper](/tags/paper)
-- [tools](/tags/tools)
-- [art](/tags/art)
+- #person
+- #group
+- #paper
+- #tools
+- #art 
