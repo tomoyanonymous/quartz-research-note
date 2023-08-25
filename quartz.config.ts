@@ -11,6 +11,7 @@ const config: QuartzConfig = {
     },
     baseUrl: "garden.matsuuratomoya.com",
     ignorePatterns: ["private", "templates"],
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "Schibsted Grotesk",
