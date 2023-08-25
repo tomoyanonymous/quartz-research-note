@@ -9,6 +9,7 @@
 - 千葉大学大学院 [定理証明支援系 Coq での 論理的なリーゾニング 集中講義 アフェルト レナルド(2017)](https://staff.aist.go.jp/reynald.affeldt/coq/riron.pdf)
 - IIJ技術研究所 [Coq を始めよう 池渕未来(2011)](https://www.iijlab.net/activities/programming-coq/coqt1.html)
 - [Real World Coq – An introduction to effective theorem proving](https://ejgallego.github.io/real-world-coq/) by  [[Emilio Jesús Gallego Arias]]
+	- <https://x80.org/rwc/code/lesson_1.html> jsCoqを使ってインタラクティブに学べる（DeepLとかのブラウザ拡張でレイアウトが崩れるっぽい）
 ## 備忘録
 
 - `Inductive`が変数宣言
