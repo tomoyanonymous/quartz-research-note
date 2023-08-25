@@ -2,6 +2,8 @@
 
 https://dl.acm.org/doi/10.1145/3471872.3472970
 
+first author: [[Emilio Jesús Gallego Arias]]
+
 ## 概要
 
 ラムダ計算に`feed`という1サンプルフィードバックを導入する形式を取る
@@ -46,6 +48,43 @@ and machine : type a . int → a expr → env → a =
 		|...
 ```
 
+ただし、リポジトリのCoqのコードでは別に相互再帰で実装されてるわけではない
+
+```ocaml
+Definition exprI n (pI : I n) : I n.+1 :=
+  fix eI k hk {Γ t} e {struct e} :=
+  match e in expr Γ t return env k Γ -> tyI k t with
+  | var v Γ idx      => fun Θ => nth (I0 k _) (hnth (hist0 k _) v Θ) idx
+  | add _ _  e1 e2   => fun Θ => eI k hk e1 Θ + eI k hk e2 Θ
+  | mul _ _  c  e    => fun Θ => c *: eI k hk e Θ
+  | pair _ _ _ e1 e2 => fun Θ => col_mx (eI k hk e1 Θ) (eI k hk e2 Θ)
+  | proj m _ i e     => fun Θ => \col__ (eI k hk e Θ) i ord0
+  | lam m _ _ e      => fun Θ v => eI k hk e (v, Θ)
+  | app _ _ _ ef ea  => fun Θ =>
+                        let efI : tyI k (tfun _ _) := eI k hk ef Θ in
+                        let eaI : hist k _ :=
+                            accI (fun k hk => eI k hk ea) hk Θ in
+                        efI eaI
+  | feed tn Γ e      => fun Θ =>
+                        let prev :=
+                            accF (fun k hk => pI k hk _ _ (feed e)) hk Θ in
+                        eI k hk e (prev, Θ)
+  end.
+
+(* Need to prove |acc_feed n.+1| =  acc_norm n ?? *)
+
+(* We build our step-indexed representation *)
+Fixpoint exprIn n {struct n} : I n.+1 :=
+  match n return I n.+1 with
+  | 0    => fun k hk Γ t e (Θ : env k Γ) =>
+            exprI (@IE0 _) hk e Θ
+  | n.+1 => fun k hk Γ t e (Θ : env k Γ) =>
+            exprI (@exprIn n) hk e Θ
+  end.
+
+```
+
+そしてCoqで証明されているのはここまで（MetaOCamlのReal-World exampleが欲しいよ）
 
 #### B:Imperativeなインタプリタ
 
