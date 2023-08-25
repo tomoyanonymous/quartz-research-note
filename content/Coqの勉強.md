@@ -16,11 +16,35 @@
 - `Definition`が再帰しない関数宣言
 - `Fixpoint`が再帰関数の宣言
 	- 再帰しないとwarningが出る
+
+・・・というのは全部、あくまで普通の関数型言語で考えたら、というので、厳密には全然違う
+
+問題はCoqがラムダキューブ最上位のCalculus of Constructionを採用しているところ。つまり次の全てが扱える
+
+- 項に依存する項 単純型付ラムダ計算
+- 型に依存する項（ジェネリクス）System F
+- 型に依存する型（カインド多相）System F $\underline{\omega}$
+- 型依存の型と型依存の項の両方 System F$\omega$
+- 項に依存する型（依存型） $\lambda\Pi$
+- 型依存の項と依存型　$\lambda\Pi2$
+- 型依存の項、項依存の型、型依存の項 CoC
+
+Theoremとかで型を取って型を返す関数とかも当然作れる
+
+> inductives are truly "pieces of data"
+
+```ocaml
+Inductive natural : Type :=
+  | O : natural
+  | S : natural -> natural.
+```
+
+自然数を表す型`natural`があったとすると、2のことを表す`S(S(O))`は`natural`に属する項だけど、`natural`型という集合の一部でもある…みたいな話だよな
+
+
 - 証明したい命題は`Goal`、`Theorem`、`Lemma`
 	- `Goal`は後で再利用されない、最後に証明したいもの
 	- `Theorem`と`Lemma`に違いはない
 		- こういうのめんどくさいな
 - `Notation`って単純な文字列置き換えマクロとして実装されてるのかしら？
 
-- Coqでは排中律が使えないので、ゴールの論理が論理和$A \cup B$とかの場合$A$か$B$のどちらかを証明するかを決めるしかない
-- 
