@@ -101,10 +101,12 @@ let rec imachine : expr → env → value =
 			fun ptr → imachine e (ptr :: env) 
 		| App (p,ef,ea) → 
 			let va = imachine ea env in 
-				shift_one heap ptr va; imachine ef env ptr 
+				shift_one heap ptr va; 
+				imachine ef env ptr 
 		| Feed (ptr,e) → 
 			let v = imachine e (ptr::env) in 
-				shift_one heap ptr v; v 
+				shift_one heap ptr v; 
+				v 
 		|... 
 		
 let rec repeat : int → (unit → 'a) → 'a = 
@@ -115,6 +117,17 @@ let rec repeat : int → (unit → 'a) → 'a =
 
 let eval e env n = repeat n (fun () → imachine e env)
 ```
+
+これAppの引数は`p`じゃなくて`ptr`だよな
+
+```ocaml:10-13
+		| App (p,ef,ea) → 
+			let va = imachine ea env in 
+				shift_one heap ptr va; 
+				imachine ef env ptr 
+```
+
+これ、Rustで改めて簡単に実装してみて思ったけど、heapの中のデータ構造がどうなってるか（初めにどうやってどのサイズのヒープを確保すべきか）が一番重要なのにそこに触れられていないのでは、、、
 
 #### C:[[MetaOCaml]]での多段階インタプリタ
 
