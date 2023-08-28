@@ -1,0 +1,1493 @@
+{
+  "index": {
+    "links": {
+      "/": [
+        {
+          "source": "/",
+          "target": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "text": "この研究ノートについて"
+        },
+        {
+          "source": "/",
+          "target": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "text": "DIY半導体"
+        },
+        {
+          "source": "/",
+          "target": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "text": "オルタナティブ電子基板"
+        },
+        {
+          "source": "/",
+          "target": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "text": "自宅サーバー"
+        },
+        {
+          "source": "/",
+          "target": "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2",
+          "text": "読書メモ"
+        },
+        {
+          "source": "/",
+          "target": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "text": "論文の管理"
+        },
+        {
+          "source": "/",
+          "target": "/tags",
+          "text": "タグ一覧"
+        }
+      ],
+      "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6": [
+        {
+          "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "target": "/Quartz",
+          "text": "Quartz"
+        },
+        {
+          "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "target": "/Obsidian",
+          "text": "Obsidian"
+        },
+        {
+          "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "target": "/Hugo",
+          "text": "Hugo"
+        }
+      ],
+      "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF": [
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/Kit-of-No-Parts",
+          "text": "Kit of No Parts"
+        },
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/AxiDraw",
+          "text": "AxiDraw"
+        },
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F",
+          "text": "ファイバーレーザー加工機"
+        },
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver",
+          "text": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver"
+        }
+      ],
+      "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC": [
+        {
+          "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "target": "/Jeri-Ellsworth",
+          "text": "Jeri Ellsworth"
+        },
+        {
+          "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "target": "/notes/Sam-Zeloof",
+          "text": "notes/Sam Zeloof"
+        },
+        {
+          "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "target": "/Maasi",
+          "text": "Maasi"
+        }
+      ],
+      "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F": [
+        {
+          "source": "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F",
+          "target": "/ComMarker-B4",
+          "text": "ComMarker B4"
+        }
+      ],
+      "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "text": "エリザベス・ブレイク"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E4%B9%85%E4%BF%9D%E7%94%B0%E8%A3%95%E4%B9%8B",
+          "text": "久保田裕之"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E7%BE%BD%E7%94%9F%E6%9C%89%E5%B8%8C",
+          "text": "羽生有希"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E8%97%A4%E9%96%93%E5%85%AC%E5%A4%AA",
+          "text": "藤間公太"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E6%9C%AC%E5%A4%9A%E7%9C%9F%E9%9A%86",
+          "text": "本多真隆"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E4%BD%90%E8%97%A4%E7%BE%8E%E5%92%8C",
+          "text": "佐藤美和"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E6%9D%BE%E7%94%B0%E5%92%8C%E6%A8%B9",
+          "text": "松田和樹"
+        },
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E9%98%AA%E4%BA%95%E8%A3%95%E4%B8%80%E9%83%8E",
+          "text": "阪井裕一郎"
+        }
+      ],
+      "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Proxmox",
+          "text": "Proxmox"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/TrueNAS",
+          "text": "TrueNAS"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/TrueNAS",
+          "text": "TrueNAS"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Portainer",
+          "text": "Portainer"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Mastodon",
+          "text": "Mastodon"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Cloudflare-Tunnel",
+          "text": "Cloudflare Tunnel"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/PhotoPrism",
+          "text": "PhotoPrism"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/JellyFin",
+          "text": "JellyFin"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Dashy",
+          "text": "Dashy"
+        }
+      ],
+      "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93": [
+        {
+          "source": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ryan-Jordan",
+          "text": "Ryan Jordan"
+        },
+        {
+          "source": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ioana-Vreme-Moser",
+          "text": "Ioana Vreme Moser"
+        }
+      ],
+      "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2": [
+        {
+          "source": "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2",
+          "target": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "text": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク"
+        }
+      ],
+      "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86": [
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Zotero",
+          "text": "Zotero"
+        },
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Obsidian",
+          "text": "Obsidian"
+        },
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Zotero",
+          "text": "Zotero"
+        },
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Templater",
+          "text": "Templater"
+        }
+      ],
+      "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF": [
+        {
+          "source": "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "target": "/Homemade-Thin-Film-Transistor-Experiments",
+          "text": "Homemade Thin-Film Transistor Experiments"
+        }
+      ],
+      "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "text": "酸化亜鉛系トランジスタ"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+          "text": "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "text": "Scientific American 1970年6月号"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Nyle-Steiner",
+          "text": "Nyle Steiner"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Jeri-Ellsworth",
+          "text": "Jeri Ellsworth"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Sam-Zeloof",
+          "text": "Sam Zeloof"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ryan-Jordan",
+          "text": "Ryan Jordan"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Robert-Adams",
+          "text": "Robert Adams"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ralf-Baecker",
+          "text": "Ralf Baecker"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Martin-Howse",
+          "text": "Martin Howse"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ioana-Vreme-Moser",
+          "text": "Ioana Vreme Moser"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "text": "芸術とデザインとしてのDIY半導体"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Maasi",
+          "text": "Maasi"
+        },
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "text": "スピンコーター"
+        }
+      ],
+      "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation": [
+        {
+          "source": "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation",
+          "target": "/zotero//select/library/items/Z829ZL6M",
+          "text": "local"
+        }
+      ],
+      "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver": [
+        {
+          "source": "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver",
+          "target": "/Small-Artifacts-Lab",
+          "text": "Small Artifacts Lab"
+        }
+      ],
+      "/Hannah-Perner-Wilson": [
+        {
+          "source": "/Hannah-Perner-Wilson",
+          "target": "/High-low-tech-Lab",
+          "text": "High-low-tech Lab"
+        }
+      ],
+      "/High-low-tech-Lab": [
+        {
+          "source": "/High-low-tech-Lab",
+          "target": "/Leah-Buechley",
+          "text": "Leah Buechley"
+        }
+      ],
+      "/Homemade-Thin-Film-Transistor-Experiments": [
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "text": "Scientific American 1970年6月号"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "text": "スピンコーター"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Nyle-Steiner",
+          "text": "Nyle Steiner"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "text": "スピンコーター"
+        }
+      ],
+      "/Kit-of-No-Parts": [
+        {
+          "source": "/Kit-of-No-Parts",
+          "target": "/Hannah-Perner-Wilson",
+          "text": "Hannah Perner-Wilson"
+        }
+      ],
+      "/Quartz": [
+        {
+          "source": "/Quartz",
+          "target": "/Obsidian",
+          "text": "Obsidian"
+        },
+        {
+          "source": "/Quartz",
+          "target": "/Hugo",
+          "text": "Hugo"
+        }
+      ],
+      "/Robert-Adams": [
+        {
+          "source": "/Robert-Adams",
+          "target": "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "text": "点接触トランジスタ"
+        },
+        {
+          "source": "/Robert-Adams",
+          "target": "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation",
+          "text": "DIY Electronics - Revealing the Material Systems of Computation"
+        }
+      ],
+      "/Ryan-Jordan": [
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "text": "点接触トランジスタ"
+        },
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/%E9%BB%84%E9%89%84%E9%89%B1",
+          "text": "黄鉄鉱"
+        },
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/Robert-Adams",
+          "text": "Robert Adams"
+        },
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/jordanDIYElectronicsRevealing2015",
+          "text": "jordanDIYElectronicsRevealing2015"
+        }
+      ],
+      "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7": [
+        {
+          "source": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        }
+      ],
+      "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment": [
+        {
+          "source": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+          "target": "/zotero//select/library/items/4Z8D7ARC",
+          "text": "local"
+        },
+        {
+          "source": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+          "target": "/",
+          "text": "pdf"
+        }
+      ],
+      "/templates/zotero_template": [
+        {
+          "source": "/templates/zotero_template",
+          "target": "/uri",
+          "text": "online"
+        },
+        {
+          "source": "/templates/zotero_template",
+          "target": "/desktopURI",
+          "text": "local"
+        }
+      ]
+    },
+    "backlinks": {
+      "/": [
+        {
+          "source": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+          "target": "/",
+          "text": "pdf"
+        }
+      ],
+      "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6": [
+        {
+          "source": "/",
+          "target": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "text": "この研究ノートについて"
+        }
+      ],
+      "/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "text": "エリザベス・ブレイク"
+        }
+      ],
+      "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF": [
+        {
+          "source": "/",
+          "target": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "text": "オルタナティブ電子基板"
+        }
+      ],
+      "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "text": "スピンコーター"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "text": "スピンコーター"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "text": "スピンコーター"
+        }
+      ],
+      "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F": [
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F",
+          "text": "ファイバーレーザー加工機"
+        }
+      ],
+      "/%E4%B9%85%E4%BF%9D%E7%94%B0%E8%A3%95%E4%B9%8B": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E4%B9%85%E4%BF%9D%E7%94%B0%E8%A3%95%E4%B9%8B",
+          "text": "久保田裕之"
+        }
+      ],
+      "/%E4%BD%90%E8%97%A4%E7%BE%8E%E5%92%8C": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E4%BD%90%E8%97%A4%E7%BE%8E%E5%92%8C",
+          "text": "佐藤美和"
+        }
+      ],
+      "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF": [
+        {
+          "source": "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2",
+          "target": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "text": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク"
+        }
+      ],
+      "/%E6%9C%AC%E5%A4%9A%E7%9C%9F%E9%9A%86": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E6%9C%AC%E5%A4%9A%E7%9C%9F%E9%9A%86",
+          "text": "本多真隆"
+        }
+      ],
+      "/%E6%9D%BE%E7%94%B0%E5%92%8C%E6%A8%B9": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E6%9D%BE%E7%94%B0%E5%92%8C%E6%A8%B9",
+          "text": "松田和樹"
+        }
+      ],
+      "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF": [
+        {
+          "source": "/Robert-Adams",
+          "target": "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "text": "点接触トランジスタ"
+        },
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "text": "点接触トランジスタ"
+        }
+      ],
+      "/%E7%BE%BD%E7%94%9F%E6%9C%89%E5%B8%8C": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E7%BE%BD%E7%94%9F%E6%9C%89%E5%B8%8C",
+          "text": "羽生有希"
+        }
+      ],
+      "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC": [
+        {
+          "source": "/",
+          "target": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "text": "自宅サーバー"
+        }
+      ],
+      "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "text": "芸術とデザインとしてのDIY半導体"
+        }
+      ],
+      "/%E8%97%A4%E9%96%93%E5%85%AC%E5%A4%AA": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E8%97%A4%E9%96%93%E5%85%AC%E5%A4%AA",
+          "text": "藤間公太"
+        }
+      ],
+      "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2": [
+        {
+          "source": "/",
+          "target": "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2",
+          "text": "読書メモ"
+        }
+      ],
+      "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86": [
+        {
+          "source": "/",
+          "target": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "text": "論文の管理"
+        }
+      ],
+      "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "text": "酸化亜鉛系トランジスタ"
+        }
+      ],
+      "/%E9%98%AA%E4%BA%95%E8%A3%95%E4%B8%80%E9%83%8E": [
+        {
+          "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+          "target": "/%E9%98%AA%E4%BA%95%E8%A3%95%E4%B8%80%E9%83%8E",
+          "text": "阪井裕一郎"
+        }
+      ],
+      "/%E9%BB%84%E9%89%84%E9%89%B1": [
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/%E9%BB%84%E9%89%84%E9%89%B1",
+          "text": "黄鉄鉱"
+        }
+      ],
+      "/AxiDraw": [
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/AxiDraw",
+          "text": "AxiDraw"
+        }
+      ],
+      "/Cloudflare-Tunnel": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Cloudflare-Tunnel",
+          "text": "Cloudflare Tunnel"
+        }
+      ],
+      "/ComMarker-B4": [
+        {
+          "source": "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F",
+          "target": "/ComMarker-B4",
+          "text": "ComMarker B4"
+        }
+      ],
+      "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93": [
+        {
+          "source": "/",
+          "target": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "text": "DIY半導体"
+        }
+      ],
+      "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation": [
+        {
+          "source": "/Robert-Adams",
+          "target": "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation",
+          "text": "DIY Electronics - Revealing the Material Systems of Computation"
+        }
+      ],
+      "/Dashy": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Dashy",
+          "text": "Dashy"
+        }
+      ],
+      "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver": [
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver",
+          "text": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver"
+        }
+      ],
+      "/Hannah-Perner-Wilson": [
+        {
+          "source": "/Kit-of-No-Parts",
+          "target": "/Hannah-Perner-Wilson",
+          "text": "Hannah Perner-Wilson"
+        }
+      ],
+      "/High-low-tech-Lab": [
+        {
+          "source": "/Hannah-Perner-Wilson",
+          "target": "/High-low-tech-Lab",
+          "text": "High-low-tech Lab"
+        }
+      ],
+      "/Homemade-Thin-Film-Transistor-Experiments": [
+        {
+          "source": "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+          "target": "/Homemade-Thin-Film-Transistor-Experiments",
+          "text": "Homemade Thin-Film Transistor Experiments"
+        }
+      ],
+      "/Hugo": [
+        {
+          "source": "/Quartz",
+          "target": "/Hugo",
+          "text": "Hugo"
+        },
+        {
+          "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "target": "/Hugo",
+          "text": "Hugo"
+        }
+      ],
+      "/Ioana-Vreme-Moser": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ioana-Vreme-Moser",
+          "text": "Ioana Vreme Moser"
+        },
+        {
+          "source": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ioana-Vreme-Moser",
+          "text": "Ioana Vreme Moser"
+        }
+      ],
+      "/JellyFin": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/JellyFin",
+          "text": "JellyFin"
+        }
+      ],
+      "/Jeri-Ellsworth": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Jeri-Ellsworth",
+          "text": "Jeri Ellsworth"
+        },
+        {
+          "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "target": "/Jeri-Ellsworth",
+          "text": "Jeri Ellsworth"
+        }
+      ],
+      "/Kit-of-No-Parts": [
+        {
+          "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+          "target": "/Kit-of-No-Parts",
+          "text": "Kit of No Parts"
+        }
+      ],
+      "/Leah-Buechley": [
+        {
+          "source": "/High-low-tech-Lab",
+          "target": "/Leah-Buechley",
+          "text": "Leah Buechley"
+        }
+      ],
+      "/Maasi": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Maasi",
+          "text": "Maasi"
+        },
+        {
+          "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "target": "/Maasi",
+          "text": "Maasi"
+        }
+      ],
+      "/Martin-Howse": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Martin-Howse",
+          "text": "Martin Howse"
+        }
+      ],
+      "/Mastodon": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Mastodon",
+          "text": "Mastodon"
+        }
+      ],
+      "/Nyle-Steiner": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Nyle-Steiner",
+          "text": "Nyle Steiner"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Nyle-Steiner",
+          "text": "Nyle Steiner"
+        }
+      ],
+      "/Obsidian": [
+        {
+          "source": "/Quartz",
+          "target": "/Obsidian",
+          "text": "Obsidian"
+        },
+        {
+          "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "target": "/Obsidian",
+          "text": "Obsidian"
+        },
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Obsidian",
+          "text": "Obsidian"
+        }
+      ],
+      "/PhotoPrism": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/PhotoPrism",
+          "text": "PhotoPrism"
+        }
+      ],
+      "/Portainer": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Portainer",
+          "text": "Portainer"
+        }
+      ],
+      "/Proxmox": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/Proxmox",
+          "text": "Proxmox"
+        }
+      ],
+      "/Quartz": [
+        {
+          "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "target": "/Quartz",
+          "text": "Quartz"
+        }
+      ],
+      "/Ralf-Baecker": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ralf-Baecker",
+          "text": "Ralf Baecker"
+        }
+      ],
+      "/Robert-Adams": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Robert-Adams",
+          "text": "Robert Adams"
+        },
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/Robert-Adams",
+          "text": "Robert Adams"
+        }
+      ],
+      "/Roger-Baker": [
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        },
+        {
+          "source": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "target": "/Roger-Baker",
+          "text": "Roger Baker"
+        }
+      ],
+      "/Ryan-Jordan": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ryan-Jordan",
+          "text": "Ryan Jordan"
+        },
+        {
+          "source": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Ryan-Jordan",
+          "text": "Ryan Jordan"
+        }
+      ],
+      "/Sam-Zeloof": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Sam-Zeloof",
+          "text": "Sam Zeloof"
+        }
+      ],
+      "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "text": "Scientific American 1970年6月号"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+          "text": "Scientific American 1970年6月号"
+        }
+      ],
+      "/Small-Artifacts-Lab": [
+        {
+          "source": "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver",
+          "target": "/Small-Artifacts-Lab",
+          "text": "Small Artifacts Lab"
+        }
+      ],
+      "/Templater": [
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Templater",
+          "text": "Templater"
+        }
+      ],
+      "/TrueNAS": [
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/TrueNAS",
+          "text": "TrueNAS"
+        },
+        {
+          "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+          "target": "/TrueNAS",
+          "text": "TrueNAS"
+        }
+      ],
+      "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment": [
+        {
+          "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+          "target": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+          "text": "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment"
+        }
+      ],
+      "/Wire-Glue": [
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        },
+        {
+          "source": "/Homemade-Thin-Film-Transistor-Experiments",
+          "target": "/Wire-Glue",
+          "text": "Wire Glue"
+        }
+      ],
+      "/Zotero": [
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Zotero",
+          "text": "Zotero"
+        },
+        {
+          "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+          "target": "/Zotero",
+          "text": "Zotero"
+        }
+      ],
+      "/desktopURI": [
+        {
+          "source": "/templates/zotero_template",
+          "target": "/desktopURI",
+          "text": "local"
+        }
+      ],
+      "/jordanDIYElectronicsRevealing2015": [
+        {
+          "source": "/Ryan-Jordan",
+          "target": "/jordanDIYElectronicsRevealing2015",
+          "text": "jordanDIYElectronicsRevealing2015"
+        }
+      ],
+      "/notes/Sam-Zeloof": [
+        {
+          "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+          "target": "/notes/Sam-Zeloof",
+          "text": "notes/Sam Zeloof"
+        }
+      ],
+      "/tags": [
+        {
+          "source": "/",
+          "target": "/tags",
+          "text": "タグ一覧"
+        }
+      ],
+      "/uri": [
+        {
+          "source": "/templates/zotero_template",
+          "target": "/uri",
+          "text": "online"
+        }
+      ],
+      "/zotero//select/library/items/4Z8D7ARC": [
+        {
+          "source": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+          "target": "/zotero//select/library/items/4Z8D7ARC",
+          "text": "local"
+        }
+      ],
+      "/zotero//select/library/items/Z829ZL6M": [
+        {
+          "source": "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation",
+          "target": "/zotero//select/library/items/Z829ZL6M",
+          "text": "local"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation",
+      "target": "/zotero//select/library/items/Z829ZL6M",
+      "text": "local"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+      "text": "酸化亜鉛系トランジスタ"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+      "text": "Water-Gated n-Type Organic Field-Effect Transistors for Complementary Integrated Circuits Operating in an Aqueous Environment"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+      "text": "Scientific American 1970年6月号"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Nyle-Steiner",
+      "text": "Nyle Steiner"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Jeri-Ellsworth",
+      "text": "Jeri Ellsworth"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Sam-Zeloof",
+      "text": "Sam Zeloof"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Ryan-Jordan",
+      "text": "Ryan Jordan"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Robert-Adams",
+      "text": "Robert Adams"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Ralf-Baecker",
+      "text": "Ralf Baecker"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Martin-Howse",
+      "text": "Martin Howse"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Ioana-Vreme-Moser",
+      "text": "Ioana Vreme Moser"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "text": "芸術とデザインとしてのDIY半導体"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Maasi",
+      "text": "Maasi"
+    },
+    {
+      "source": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+      "text": "スピンコーター"
+    },
+    {
+      "source": "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver",
+      "target": "/Small-Artifacts-Lab",
+      "text": "Small Artifacts Lab"
+    },
+    {
+      "source": "/Hannah-Perner-Wilson",
+      "target": "/High-low-tech-Lab",
+      "text": "High-low-tech Lab"
+    },
+    {
+      "source": "/High-low-tech-Lab",
+      "target": "/Leah-Buechley",
+      "text": "Leah Buechley"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+      "text": "Scientific American 1970年6月号"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Roger-Baker",
+      "text": "Roger Baker"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Roger-Baker",
+      "text": "Roger Baker"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Wire-Glue",
+      "text": "Wire Glue"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Roger-Baker",
+      "text": "Roger Baker"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+      "text": "スピンコーター"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Wire-Glue",
+      "text": "Wire Glue"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Wire-Glue",
+      "text": "Wire Glue"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Wire-Glue",
+      "text": "Wire Glue"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/Nyle-Steiner",
+      "text": "Nyle Steiner"
+    },
+    {
+      "source": "/Homemade-Thin-Film-Transistor-Experiments",
+      "target": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+      "text": "スピンコーター"
+    },
+    {
+      "source": "/Kit-of-No-Parts",
+      "target": "/Hannah-Perner-Wilson",
+      "text": "Hannah Perner-Wilson"
+    },
+    {
+      "source": "/Quartz",
+      "target": "/Obsidian",
+      "text": "Obsidian"
+    },
+    {
+      "source": "/Quartz",
+      "target": "/Hugo",
+      "text": "Hugo"
+    },
+    {
+      "source": "/Robert-Adams",
+      "target": "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+      "text": "点接触トランジスタ"
+    },
+    {
+      "source": "/Robert-Adams",
+      "target": "/DIY-Electronics-Revealing-the-Material-Systems-of-Computation",
+      "text": "DIY Electronics - Revealing the Material Systems of Computation"
+    },
+    {
+      "source": "/Ryan-Jordan",
+      "target": "/%E7%82%B9%E6%8E%A5%E8%A7%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+      "text": "点接触トランジスタ"
+    },
+    {
+      "source": "/Ryan-Jordan",
+      "target": "/%E9%BB%84%E9%89%84%E9%89%B1",
+      "text": "黄鉄鉱"
+    },
+    {
+      "source": "/Ryan-Jordan",
+      "target": "/Robert-Adams",
+      "text": "Robert Adams"
+    },
+    {
+      "source": "/Ryan-Jordan",
+      "target": "/jordanDIYElectronicsRevealing2015",
+      "text": "jordanDIYElectronicsRevealing2015"
+    },
+    {
+      "source": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+      "target": "/Roger-Baker",
+      "text": "Roger Baker"
+    },
+    {
+      "source": "/Scientific-American-1970%E5%B9%B46%E6%9C%88%E5%8F%B7",
+      "target": "/Roger-Baker",
+      "text": "Roger Baker"
+    },
+    {
+      "source": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+      "target": "/zotero//select/library/items/4Z8D7ARC",
+      "text": "local"
+    },
+    {
+      "source": "/Water-Gated-n-Type-Organic-Field-Effect-Transistors-for-Complementary-Integrated-Circuits-Operating-in-an-Aqueous-Environment",
+      "target": "/",
+      "text": "pdf"
+    },
+    {
+      "source": "/",
+      "target": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "text": "この研究ノートについて"
+    },
+    {
+      "source": "/",
+      "target": "/DIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "text": "DIY半導体"
+    },
+    {
+      "source": "/",
+      "target": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+      "text": "オルタナティブ電子基板"
+    },
+    {
+      "source": "/",
+      "target": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "text": "自宅サーバー"
+    },
+    {
+      "source": "/",
+      "target": "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2",
+      "text": "読書メモ"
+    },
+    {
+      "source": "/",
+      "target": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+      "text": "論文の管理"
+    },
+    {
+      "source": "/",
+      "target": "/tags",
+      "text": "タグ一覧"
+    },
+    {
+      "source": "/templates/zotero_template",
+      "target": "/uri",
+      "text": "online"
+    },
+    {
+      "source": "/templates/zotero_template",
+      "target": "/desktopURI",
+      "text": "local"
+    },
+    {
+      "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "target": "/Quartz",
+      "text": "Quartz"
+    },
+    {
+      "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "target": "/Obsidian",
+      "text": "Obsidian"
+    },
+    {
+      "source": "/%E3%81%93%E3%81%AE%E7%A0%94%E7%A9%B6%E3%83%8E%E3%83%BC%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+      "target": "/Hugo",
+      "text": "Hugo"
+    },
+    {
+      "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+      "target": "/Kit-of-No-Parts",
+      "text": "Kit of No Parts"
+    },
+    {
+      "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+      "target": "/AxiDraw",
+      "text": "AxiDraw"
+    },
+    {
+      "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+      "target": "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F",
+      "text": "ファイバーレーザー加工機"
+    },
+    {
+      "source": "/%E3%82%AA%E3%83%AB%E3%82%BF%E3%83%8A%E3%83%86%E3%82%A3%E3%83%96%E9%9B%BB%E5%AD%90%E5%9F%BA%E6%9D%BF",
+      "target": "/Fibercuit-Prototyping-High-Resolution-Flexible-and-Kirigami-Circuits-with-a-Fiber-Laser-Engraver",
+      "text": "Fibercuit Prototyping High-Resolution Flexible and Kirigami Circuits with a Fiber Laser Engraver"
+    },
+    {
+      "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+      "target": "/Jeri-Ellsworth",
+      "text": "Jeri Ellsworth"
+    },
+    {
+      "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+      "target": "/notes/Sam-Zeloof",
+      "text": "notes/Sam Zeloof"
+    },
+    {
+      "source": "/%E3%82%B9%E3%83%94%E3%83%B3%E3%82%B3%E3%83%BC%E3%82%BF%E3%83%BC",
+      "target": "/Maasi",
+      "text": "Maasi"
+    },
+    {
+      "source": "/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC%E5%8A%A0%E5%B7%A5%E6%A9%9F",
+      "target": "/ComMarker-B4",
+      "text": "ComMarker B4"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "text": "エリザベス・ブレイク"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E4%B9%85%E4%BF%9D%E7%94%B0%E8%A3%95%E4%B9%8B",
+      "text": "久保田裕之"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E7%BE%BD%E7%94%9F%E6%9C%89%E5%B8%8C",
+      "text": "羽生有希"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E8%97%A4%E9%96%93%E5%85%AC%E5%A4%AA",
+      "text": "藤間公太"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E6%9C%AC%E5%A4%9A%E7%9C%9F%E9%9A%86",
+      "text": "本多真隆"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E4%BD%90%E8%97%A4%E7%BE%8E%E5%92%8C",
+      "text": "佐藤美和"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E6%9D%BE%E7%94%B0%E5%92%8C%E6%A8%B9",
+      "text": "松田和樹"
+    },
+    {
+      "source": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "target": "/%E9%98%AA%E4%BA%95%E8%A3%95%E4%B8%80%E9%83%8E",
+      "text": "阪井裕一郎"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/Proxmox",
+      "text": "Proxmox"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/TrueNAS",
+      "text": "TrueNAS"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/TrueNAS",
+      "text": "TrueNAS"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/Portainer",
+      "text": "Portainer"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/Mastodon",
+      "text": "Mastodon"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/Cloudflare-Tunnel",
+      "text": "Cloudflare Tunnel"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/PhotoPrism",
+      "text": "PhotoPrism"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/JellyFin",
+      "text": "JellyFin"
+    },
+    {
+      "source": "/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC",
+      "target": "/Dashy",
+      "text": "Dashy"
+    },
+    {
+      "source": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Ryan-Jordan",
+      "text": "Ryan Jordan"
+    },
+    {
+      "source": "/%E8%8A%B8%E8%A1%93%E3%81%A8%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEDIY%E5%8D%8A%E5%B0%8E%E4%BD%93",
+      "target": "/Ioana-Vreme-Moser",
+      "text": "Ioana Vreme Moser"
+    },
+    {
+      "source": "/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2",
+      "target": "/%E6%9C%80%E5%B0%8F%E3%81%AE%E7%B5%90%E5%A9%9A-%E7%B5%90%E5%A9%9A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E6%96%B9%E3%81%A8%E9%81%93%E5%BE%B3-%E3%82%A8%E3%83%AA%E3%82%B6%E3%83%99%E3%82%B9%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF",
+      "text": "最小の結婚 結婚をめぐる方と道徳-エリザベス・ブレイク"
+    },
+    {
+      "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+      "target": "/Zotero",
+      "text": "Zotero"
+    },
+    {
+      "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+      "target": "/Obsidian",
+      "text": "Obsidian"
+    },
+    {
+      "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+      "target": "/Zotero",
+      "text": "Zotero"
+    },
+    {
+      "source": "/%E8%AB%96%E6%96%87%E3%81%AE%E7%AE%A1%E7%90%86",
+      "target": "/Templater",
+      "text": "Templater"
+    },
+    {
+      "source": "/%E9%85%B8%E5%8C%96%E4%BA%9C%E9%89%9B%E7%B3%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+      "target": "/Homemade-Thin-Film-Transistor-Experiments",
+      "text": "Homemade Thin-Film Transistor Experiments"
+    }
+  ]
+}
