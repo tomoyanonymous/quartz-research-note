@@ -70,3 +70,4 @@ $$
 $$
 \frac{\Gamma x = R_a }{\Gamma \vdash x:R}
 $$%%
+
