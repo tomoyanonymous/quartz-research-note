@@ -21,3 +21,8 @@ http://www.imajeenyus.com/computer/20160531_axidraw_laser/index.shtml
 p5などでパラメトリックに動かすためのリソース
 
 https://penplotterartwork.com/blog/2021/07/05/how-to-pen-plot-guides-tutorials-and-more/#more-167
+
+GCodeで動かすための変換器
+
+https://github.com/andymasteroffish/axidraw_gcode_reader
+
