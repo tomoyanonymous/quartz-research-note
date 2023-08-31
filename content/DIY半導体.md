@@ -16,6 +16,30 @@ tags:
 
 ## サーベイ
 
+### 個人でのASIC製造
+
+- Open Source Silicon Initiative
+	- Group Buyみたいな感じでデータを集めて定期的に工場に発注する流れをオープン化しているもの(Open MPW Shuttle)
+	- Google、Skywater、efabless、GlobalFoundriesの4社がやってる
+	- [Built Custom Silicon with Google](https://developers.google.com/silicon?hl=ja)
+		- https://riscv.or.jp/wp-content/uploads/DAY1_Aaron_Google_RISC-V_Tokyo_Autumn_2022-Aaron_Slides_cp.pdf
+	- OpenLane：efablessの提供するeda
+	- [GlobalFoundries、無償でカスタムASICが作れるOpen Source Silicon Initiativeに参加
+](https://pc.watch.impress.co.jp/docs/column/tidbit/1433235.html)
+
+- [TinyTapeOut](https://tinytapeout.com/)
+	- efablessがやってるやつ
+	- [Zero to ASIC Course](https://zerotoasiccourse.com/)
+
+[Open-source IC cells as 3D prints. A rough how-to guide.](https://medium.com/@thorstenknoll/open-source-ic-cells-as-3d-prints-a-rough-how-to-guide-90a8bc8b3b57)
+
+https://vlsi.jp/ クレイジーピエロさんがやってる情報集
+
+
+[MakeLSI](https://scrapbox.io/makelsi/)
+
+https://www.bookpark.ne.jp/cm/ieej/detail/IEEJ-ECT16039-PDF/
+
 ### 金属酸化物
 
 [[酸化亜鉛系トランジスタ]]
