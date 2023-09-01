@@ -23,25 +23,28 @@ Environmentは評価全体で見ればLetやLambdaごとに分岐していく構
 こんな感じすかねえ
 
 ```rust
-struct EnvironmentT<'a, T>(&'a mut Vec<(String, T)>, usize);
+struct EnvironmentT<'a, T: Clone>(&'a mut Vec<(String, T)>, usize);
 
-impl<'a, T> EnvironmentT<'a, T> {
+impl<'a, T: Clone> EnvironmentT<'a, T> {
     pub fn new(vec: &'a mut Vec<(String, T)>, mut names: Vec<(String, T)>) -> Self {
         let len = vec.len();
         vec.append(&mut names);
         Self(vec, len)
     }
-    pub fn drop(&mut self) {
-        self.0.truncate(self.1);
-    }
-    pub fn lookup(&self, name: &String) -> Option<&'a T> {
+    pub fn lookup(&self, name: &String) -> Option<T> {
         let res = self
             .0
             .iter()
             .rev()
             .filter(|(n, _v)| name == n)
             .collect::<Vec<_>>();
-        res.get(0).map(|(_, v)| v)
+        res.get(0).map(|(_, v)| v.clone())
+    }
+}
+
+impl<'a, T: Clone> Drop for EnvironmentT<'a, T> {
+    fn drop(&mut self) {
+        self.0.truncate(self.1);
     }
 }
 ```
