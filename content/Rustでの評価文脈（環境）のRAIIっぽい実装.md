@@ -1,26 +1,33 @@
 #programming-language #compiler-design
 
-chumskyのチュートリアルで、評価する関数をライフタイム付きでこんな感じになってたの頭いいなと思ったので、RAIIにしたらもっとシンプルに見えるのではと思った
+[chumskyのチュートリアル](https://github.com/zesterer/chumsky/blob/main/tutorial.md)で、評価する関数の実装がライフタイム付きでこんな感じになってたの頭いいなと思ったので、RAIIにしたらもっとシンプルに見えるのではと思った
+
+OCamlとかの関数型言語とかみたいに、`env :: newbind`とかするのはRustではイテレータとか使いづらいしやっぱ微妙、というのもある
 
 ```rust
-fn eval<'a>(expr:Expr,env:&'a mut Vec<(String,Val)>)->Result<Val,Error>{
-	match expr {
+fn eval<'a>(expr: &'a Expr, vars: &mut Vec<(&'a String, f64)>) -> Result<f64, String> {
+    match expr {
 	...
-	Expr::Let(name,e,then)=>{
-		env.push((name,eval(e,env)));
-		let res = eval(then,env);
-		env.pop();
-		res
-	}
+        Expr::Let { name, rhs, then } => {
+            let rhs = eval(rhs, vars)?;
+            vars.push((name, rhs));
+            let output = eval(then, vars);
+            vars.pop();
+            output
+        },
 	...
 	
 	}
 }
 ```
 
-Environmentは評価全体で見ればLetやLambdaごとに分岐していく構造だけれど、局所的には1列のベクタで表現できる
+Environmentは評価全体で見ればLetやLambdaごとに分岐していく構造だけれど、局所的には1列のベクタで表現できるので、実は`Vec`で十分
 
 こんな感じすかねえ
+
+[[Rust]]初心者には逆にわかりにくかもしれないな、、、
+
+lookupでは値をコピーして返してる（このオブジェクトが有効な期間は中身のベクタの不変参照を返すことができないため）
 
 ```rust
 struct EnvironmentT<'a, T: Clone>(&'a mut Vec<(String, T)>, usize);
