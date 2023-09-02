@@ -64,6 +64,14 @@ impl<'a, T: Clone> Drop for EnvironmentT<'a, T> {
 ので、evalを相互再帰するヘルパー関数とかでこういう感じにした方が楽かも
 
 ```rust
+fn lookup(env: &mut Vec<(String, Value)>, name: &String) -> Option<Value> {
+    let res = env
+        .iter()
+        .rev()
+        .filter(|(n, _v)| name == n)
+        .collect::<Vec<_>>();
+    res.get(0).map(|(_, v)| v.clone())
+}
 fn eval_with_new_env<'a>(
     e_meta: Box<WithMeta<ast::Expr>>,
     env: &'a mut Vec<(String, Value)>,
