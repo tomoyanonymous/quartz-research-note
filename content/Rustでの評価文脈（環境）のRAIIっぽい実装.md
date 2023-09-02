@@ -55,3 +55,43 @@ impl<'a, T: Clone> Drop for EnvironmentT<'a, T> {
     }
 }
 ```
+
+---
+
+なんかDropのタイミングがうまく制御できずコンパイルを通せない、、、
+し、綺麗ではあるけど言うほど記述量が減るわけではない
+
+ので、evalを相互再帰するヘルパー関数とかでこういう感じにした方が楽かも
+
+```rust
+fn eval_with_new_env<'a>(
+    e_meta: Box<WithMeta<ast::Expr>>,
+    env: &'a mut Vec<(String, Value)>,
+    mut names: Vec<(String, Value)>,
+) -> Result<Value, Error> {
+    let len_origin = env.len();
+    env.append(&mut names);
+    let res = eval_ast(e_meta, env);
+    env.truncate(len_origin);
+    res
+}
+fn eval_ast<'a>(
+    e_meta: Box<WithMeta<ast::Expr>>,
+    env: &'a mut Vec<(String, Value)>,
+) -> Result<Value, Error>{
+	...
+	match e {
+	...
+        ast::Expr::Let(TypedId { id, ty: _t }, e, then) => {
+            let e_v = eval_ast(e, env)?;
+            match then {
+                Some(t) => eval_with_new_env(t, env, vec![(id, e_v)]),
+                None => Ok(Value::Unit),
+            }
+        }
+	...
+	
+	}
+
+}
+```
