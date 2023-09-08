@@ -69,6 +69,133 @@ $$
 ## 実例
 
 ```rust
-fn 
-
+fn cascade(order:int,fb)->(float->float){
+	if(order>0){
+		|x|{
+			cascade(N-1)(x) *(1-fb) + self*fb 
+		}
+	}else{
+		|x| x
+	}
+}
 ```
+
+
+ちょっとわかりやすさのために`self`を使わずfeedにしてみる
+
+```rust
+fn cascade(order:int,fb)->(float->float){
+	if(order>0){
+		|x|{
+			feed(y) { cascade(N-1)(x) *(1-fb) + y*fb }
+		}
+	}else{
+		|x| x
+	}
+}
+```
+
+あー、今までは`fn(x)`でself使うものを`feed(self).lambda(x).e,`って感じに自動的に変換してたけど、変換するとしたら`lambda(x).feed(x).e`の方が良かったってことなんだな
+
+これを`cascade(3,0.9)`とかで簡約してみるか
+
+```rust
+cascade(3,0.9)
+
+|x|{
+	let res = cascade(2)(x);
+	feed(y) { res*0.1 + y*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 let res2 = cascade(1)(x2);
+		 feed(y2) { res2*0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1*0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 let res2 = |x3|{
+			 let res3 = cascade(0)(x3);
+			 feed(y3) { res3*0.1 + y3*0.9 }
+		}(x2);
+		 feed(y2) { res2*0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1*0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 let res2 = |x3|{
+			 let res3 = |x|{x}(x3);
+			 feed(y3) { res3*0.1 + y3*0.9 }
+		}(x2);
+		 feed(y2) { res2*0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1*0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 let res2 = |x3|{
+			 let res3 = x3;
+			 feed(y3) { res3*0.1 + y3*0.9 }
+		}(x2);
+		 feed(y2) { res2*0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1*0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 let res2 = |x3|{
+			 feed(y3) { x3*0.1 + y3*0.9 }
+		}(x2);
+		 feed(y2) { res2*0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1*0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 let res2 = feed(y3) { x2*0.1 + y3*0.9 };
+		 feed(y2) { res2*0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1*0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 =|x2|{
+		 feed(y2) { feed(y3) { x2*0.1 + y3*0.9 } *0.1 + y2*0.9 }
+	}(x1);
+	feed(y1) { res1 *0.1 + y1*0.9 }
+}
+|x1|{
+	let res1 = feed(y2) { feed(y3) { x1 *0.1 + y3*0.9 } *0.1 + y2*0.9 };
+	feed(y1) { res1 *0.1 + y1*0.9 }
+}
+|x1|{
+	feed(y1) { 
+		feed(y2) { 
+			feed(y3) { x1*0.1 + y3*0.9} *0.1 + y2*0.9 }*0.1 + y1*0.9 }
+}
+```
+
+feedの項に対する加算とか乗算の計算は簡約がしづらいなあ
+
+時間0の時のyは全て0として、
+
+```rust
+|x1,y1_ref,y2_ref,y3_ref| {
+	let y1 = *y1_ref;
+	let y1_next= {
+		let y2 = *y2_ref;
+		let y2_next = {
+			let y3 = *y3_ref;
+			let y3_next = x1*0.1 + y3*0.9;
+			*y3_ref = y3_next;
+			y3_next
+		}*0.1 + y2*0.9;
+		*y2_ref = y2_next;
+		y2_next	}*0.1 + y1*0.9;
+	*y1_ref = y1_next;
+	y1_next
+}
+```
+
+やっぱdenotationalの方が定義しやすいかもなあ
