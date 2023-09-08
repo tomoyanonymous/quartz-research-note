@@ -21,7 +21,7 @@ n以下の自然数$I_n$ (ディレイのbounded access用)
 $$
 \begin{align}
 \tau ::=&\quad R_a \quad & a \in \mathbb{N}\\
-      |&\quad I_n \quad &n \in \mathbb{N} \\
+      |&\quad I_n \quad &n \in \mathbb{N} \\\
       |&\quad \tau → \tau \quad &a,b \in \mathbb{N}\\
       % |&\quad \langle \tau \rangle
 \end{align}
@@ -37,13 +37,12 @@ $$
 $$
 \begin{align}
 v \; ::= & \quad R \\
-	| & \quad \lambda x:T.e  \quad & [lambda]\\
+	| & \quad \lambda x:\tau.e  \quad & [lambda]\\
      |& \quad feed \; x.e \quad & [feed] \\
 \end{align}
 $$
 ## 項
 
-項
 
 $$
 \begin{align}
@@ -199,3 +198,32 @@ feedの項に対する加算とか乗算の計算は簡約がしづらいなあ
 ```
 
 やっぱdenotationalの方が定義しやすいかもなあ
+
+ああでもfeedを無事に展開できるということは、feedの項に対して`Cell`を割り当てることそのものには間違いはないのか
+
+ただ、例えばFeedの項の中に関数が残っちゃうような可能性もあるため、Feedのhistoryの中にLambdaの項が保存されるような状況が回避できない。
+
+型付規則の中でfeed x.eのeがプリミティブしか取れないようにすればいいのかね。そうするとValueはCopyトレイトを実装できて、feedの中に実際にはラムダが入ってたとしても、簡約後は必ずValueになっていると
+
+## 型（改正版）
+
+というわけで型の定義再訪
+
+
+$$
+\begin{align}
+\tau_p ::=&\quad R_a \quad & a \in \mathbb{N}\\
+      |&\quad I_n \quad &n \in \mathbb{N} \\
+\tau  :: = &\quad \tau_p\\
+      |&\quad \tau → \tau \quad &a,b \in \mathbb{N}\\
+      % |&\quad \langle \tau \rangle
+\end{align}
+$$
+
+でFeedの型付け規則(xが)こういう感じになると
+
+$$
+\frac{\Gamma, x:\tau^a \vdash e:\tau^b}{\Gamma \vdash \lambda x.e:\tau^a \to \tau^b }\\
+
+\frac{\Gamma, x : \tau_p^a \vdash e: \tau_p^a }{\Gamma \vdash feed\ x.e:\tau_p^a}
+$$
