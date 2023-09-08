@@ -68,6 +68,21 @@ $$
 ## 実例
 
 ```rust
+fn cascade_f(order:int,fb,x)->float{
+	letrec cascade = if(order>0){
+		|x|{
+			cascade(N-1)(x) *(1-fb) + self*fb 
+		}
+	}else{
+		|x| x
+	}
+	cascade(x)
+}
+```
+
+まあ、ともあれコピーキャプチャのクロージャでも問題ないってことですね
+
+```rust
 fn cascade(order:int,fb)->(float->float){
 	if(order>0){
 		|x|{
@@ -203,12 +218,11 @@ feedの項に対する加算とか乗算の計算は簡約がしづらいなあ
 
 ただ、例えばFeedの項の中に関数が残っちゃうような可能性もあるため、Feedのhistoryの中にLambdaの項が保存されるような状況が回避できない。
 
-型付規則の中でfeed x.eのeがプリミティブしか取れないようにすればいいのかね。そうするとValueはCopyトレイトを実装できて、feedの中に実際にはラムダが入ってたとしても、簡約後は必ずValueになっていると
+型付規則の中でfeed x.eのeがプリミティブというか、Boxedにならないものしか取れないようにすればいいのかね。そうするとValueはCopyトレイトを実装できて、feedの中に実際にはラムダが入ってたとしても、簡約後は必ずValueになっていると
 
 ## 型（改正版）
 
 というわけで型の定義再訪
-
 
 $$
 \begin{align}
@@ -224,6 +238,8 @@ $$
 
 $$
 \frac{\Gamma, x:\tau^a \vdash e:\tau^b}{\Gamma \vdash \lambda x.e:\tau^a \to \tau^b }\\
-
+\\
 \frac{\Gamma, x : \tau_p^a \vdash e: \tau_p^a }{\Gamma \vdash feed\ x.e:\tau_p^a}
 $$
+
+タプルとかレコードもできるけど、関数をタプルの要素にしたりはできない（できないでもないけど、「そういう型をとれるタプル」と「そういうのできないタプル」を分けて考える必要がある）、って感じでユーザーにはややこしいですねえ
