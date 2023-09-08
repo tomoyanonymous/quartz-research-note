@@ -67,20 +67,6 @@ $$
 
 ## 実例
 
-```rust
-fn cascade_f(order:int,fb,x)->float{
-	letrec cascade = if(order>0){
-		|x|{
-			cascade(N-1)(x) *(1-fb) + self*fb 
-		}
-	}else{
-		|x| x
-	}
-	cascade(x)
-}
-```
-
-まあ、ともあれコピーキャプチャのクロージャでも問題ないってことですね
 
 ```rust
 fn cascade(order:int,fb)->(float->float){
@@ -234,7 +220,7 @@ $$
 \end{align}
 $$
 
-でFeedの型付け規則(xが)こういう感じになると
+でラムダ抽象とFeedの型付け規則こういう感じになると
 
 $$
 \frac{\Gamma, x:\tau^a \vdash e:\tau^b}{\Gamma \vdash \lambda x.e:\tau^a \to \tau^b }\\
@@ -243,3 +229,26 @@ $$
 $$
 
 タプルとかレコードもできるけど、関数をタプルの要素にしたりはできない（できないでもないけど、「そういう型をとれるタプル」と「そういうのできないタプル」を分けて考える必要がある）、って感じでユーザーにはややこしいですねえ
+
+## Feedのスコープと簡約の順番について
+
+ところでさっきの`cascade`関数ってさ、わざわざ高階関数にせず一括でやれるんですかね、
+
+```rust
+fn cascade_f(order:int,fb,x)->float{
+	letrec cascade = if(order>0){
+		|x|{
+			cascade(N-1)(x) *(1-fb) + self*fb 
+		}
+	}else{
+		|x| x
+	}
+	cascade(x)
+}
+
+let res = cascade_f(3,0.9,input)
+```
+
+ともあれコピーキャプチャのクロージャでも問題はなさそうだけども、この状態だと`cascade`のfeedのコンテキストは毎サンプル終了しちゃうって感じなんだよね
+
+つまり多引数関数の簡約の順番が意味論に影響を与えるのが普通のラムダ計算とは違うところなのかね
