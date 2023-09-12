@@ -1,3 +1,3 @@
-#software #programming-language #sound 
+#software #programminglanguage #sound 
 
 https://faust.grame.fr
