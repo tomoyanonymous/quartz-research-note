@@ -285,5 +285,5 @@ fn lowpass(input,fb){
 res = filterbank(3,input,100,2000,2.0,lowpass)
 ```
 
-lowpassは最終的にlambda{feed{self}}的な感じになるが
+lowpassは最終的にlambda{feed{self}}的な感じになるが、それはfilterbankの中で呼ばれるまではわからない
 
