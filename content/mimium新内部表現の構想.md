@@ -252,3 +252,38 @@ let res = cascade_f(3,0.9,input)
 ともあれコピーキャプチャのクロージャでも問題はなさそうだけども、この状態だと`cascade`のfeedのコンテキストは毎サンプル終了しちゃうって感じなんだよね
 
 
+## VMのインストラクションとデータ構造
+
+```rust
+type Ref = u8;
+enum UpIndex{
+	Local(Reg),
+	UpValue(u64)
+}
+struct FuncProto{
+	instructons: Vec<Instruction>,
+	constants: Vec<RawVal>,
+	upvalue_idxs: Vec<UpIndex>,
+	feed_idx: Vec<u64>
+}
+```
+
+この関数だけだとfeedidをどうつければいいかなあ
+
+```rust
+fn filterbank(N,input,lowestfreq, margin,Q,filter){
+    if(N>0){
+        return filter(input,lowestfreq+N*margin,Q)
+                +  filterbank(N-1,input, lowestfreq,margin,Q,filter)
+    }else{
+        return 0
+    }
+}
+fn lowpass(input,fb){
+	input* (1-fb) + self * fb
+}
+res = filterbank(3,input,100,2000,2.0,lowpass)
+```
+
+lowpassは最終的にlambda{feed{self}}的な感じになるが
+
