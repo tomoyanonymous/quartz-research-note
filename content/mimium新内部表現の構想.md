@@ -72,7 +72,7 @@ $$
 fn cascade(order:int,fb)->(float->float){
 	if(order>0){
 		|x|{
-			cascade(N-1)(x) *(1-fb) + self*fb 
+			cascade(order-1)(x) *(1-fb) + self*fb 
 		}
 	}else{
 		|x| x
@@ -87,7 +87,7 @@ fn cascade(order:int,fb)->(float->float){
 fn cascade(order:int,fb)->(float->float){
 	if(order>0){
 		|x|{
-			feed(y) { cascade(N-1)(x) *(1-fb) + y*fb }
+			feed(y) { cascade(order-1)(x) *(1-fb) + y*fb }
 		}
 	}else{
 		|x| x
@@ -304,9 +304,9 @@ lowpass: //stack 0:input, 1: fb
 	mult 5 2 4
 	add 6 3 5
 	retfeed 6 1
-	const:
+const:
 	1_i64
-	upindexes:
+upindexes:
 	//nothing
 ```
 
@@ -325,7 +325,7 @@ filterbank: //stack 0:N,1:input,2:lfreq,3:margin,4:filter
 	move 7 4 // get filter 
 	move 8 1
 	move 9 6
-	call 7 2 1 //result on stack 7
+	callcls 7 2 1 //result on stack 7
 	moveconst 8 1
 	sub 9 0 8
 	move 10 -1 // get recursive call
@@ -333,14 +333,39 @@ filterbank: //stack 0:N,1:input,2:lfreq,3:margin,4:filter
 	move 12 1
 	move 13 2
 	move 14 3
-	move 15 4
+	closure 15 4 // hof requires all function should be closure
 	call 10 5 1 //recursive call, result on stack 10
 	add 0 7 10
 	jmp 1
 	moveconst 0 0
 	ret 0 1
-	const:
-	0_i64 -1_u64
+const:
+	0_i64 
+	-1_u64
 ```
 
 feedが呼ばれた時にどのfeedidかを判別するのはランタイム側の役目
+
+---
+
+```rust
+fn cascade_f(order:int,fb,x)->float{
+	letrec cascade = if(order>0){
+		|x|{
+			cascade(N-1)(x) *(1-fb) + self*fb 
+		}
+	}else{
+		|x| x
+	}
+	cascade(x)
+}
+fn phasor(freq)->float{
+	1+self
+}
+fn doubleosc(freq)->freq{
+	phasor(freq)+phasor(freq+10)
+}
+let res = cascade_f(3,0.9,input)+doubleosc(440)
+```
+
+なんかこんな感じだとして、レキシカルに何番目の関数呼び出しか、
