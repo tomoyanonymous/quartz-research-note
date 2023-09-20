@@ -271,10 +271,11 @@ struct FuncProto{
 この関数だけだとfeedidをどうつければいいかなあ
 
 ```rust
-fn filterbank(N,input,lowestfreq, margin,Q,filter){
+fn filterbank(N,input,lowestfreq, margin,filter){
     if(N>0){
-        return filter(input,lowestfreq+N*margin,Q)
-                +  filterbank(N-1,input, lowestfreq,margin,Q,filter)
+	    let freq = lowestfreq+N*margin;
+        return filter(input,freq)
+                +  filterbank(N-1,input,lowestfreq,margin,filter)
     }else{
         return 0
     }
@@ -282,8 +283,64 @@ fn filterbank(N,input,lowestfreq, margin,Q,filter){
 fn lowpass(input,fb){
 	input* (1-fb) + self * fb
 }
+let lowpass = |input,fb|{feed(y) { 
+	input* (1-fb) + y * fb
+ }} }
+let lowpass = |input,fb,ref_y|{
+	let res = input* (1-fb)+ deref(ref_y)*fb
+	ref_y := res
+	res
+}
 res = filterbank(3,input,100,2000,2.0,lowpass)
 ```
 
 lowpassは最終的にlambda{feed{self}}的な感じになるが、それはfilterbankの中で呼ばれるまではわからない
+lowpassのバイトコードはこんな感じか
+```
+lowpass: //stack 0:input, 1: fb
+	moveconst 2 0
+	sub 3 1 2
+	getfeed 4
+	mult 5 2 4
+	add 6 3 5
+	retfeed 6 1
+	const:
+	1_i64
+	upindexes:
+	//nothing
+```
 
+```
+global_ftable:
+	lowpass
+	filterbank
+
+filterbank: //stack 0:N,1:input,2:lfreq,3:margin,4:filter
+	moveconst 5 0
+	gt 6 0 5
+	jmpifneg 6 16
+	mult 6 0 3
+	add 7 2 0
+	move 6 6 7
+	move 7 4 // get filter 
+	move 8 1
+	move 9 6
+	call 7 2 1 //result on stack 7
+	moveconst 8 1
+	sub 9 0 8
+	move 10 -1 // get recursive call
+	move 11 9 // prepare arguments...
+	move 12 1
+	move 13 2
+	move 14 3
+	move 15 4
+	call 10 5 1 //recursive call, result on stack 10
+	add 0 7 10
+	jmp 1
+	moveconst 0 0
+	ret 0 1
+	const:
+	0_i64 -1_u64
+```
+
+feedが呼ばれた時にどのfeedidかを判別するのはランタイム側の役目
