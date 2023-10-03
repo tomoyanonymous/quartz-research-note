@@ -4,6 +4,6 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
+content/.obsidian/workspace.json
 .quartz-cache
 private/
