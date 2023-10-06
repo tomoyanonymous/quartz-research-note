@@ -39,3 +39,5 @@ cd /home/tomoya/mastodon
 ```bash
 /usr/bin/docker run -v fedifetcher-artifacts:/app/artifacts --rm --name fedifetcher -it ghcr.io/nanos/fedifetcher:latest --access-token=XXXXXXXXXXXXXXX --server=social.matsuuratomoya.com --home-timeline-length=200 --max-followings=90 --reply-interval-in-hours=6 --lock-hours=1
 ```
+
+[[Mastodonのデータベースが壊れたときにやったこと（v4.2.0）]]
