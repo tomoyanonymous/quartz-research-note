@@ -4,7 +4,7 @@ title: Matsuura Tomoya Research Note
 
 ### 著者
 
-松浦知也
+[[松浦知也]]
 
 https://matsuuratomoya.com
 
