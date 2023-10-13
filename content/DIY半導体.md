@@ -93,7 +93,7 @@ https://web.archive.org/web/20121027074518/http://groups.yahoo.com/group/home_tr
 
 [[Ioana Vreme Moser]]
 
-[[芸術とデザインとしてのDIY半導体]]
+[[複製するメディアではなく、"刷られた装置"としてのコンピューター -  芸術とデザインの視点からのDIY半導体]]
 
 ### その他
 
