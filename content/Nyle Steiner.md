@@ -17,3 +17,7 @@ http://www.sparkbangbuzz.com/
 全然関係ねえけどこれも面白い
  
  [Very interesting sounds from a drop of salt water on aluminum.](http://www.sparkbangbuzz.com/els/alsounds-el.htm)
+
+えっっていうかこの人EVI（ウィンドシンセ）を開発したあのSteinerhornのNyle Steinerと同一人物だったの！？？
+
+https://patchmanmusic.com/NyleSteinerHomepage.html
