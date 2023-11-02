@@ -7,9 +7,66 @@ DAWをプログラマブルにする試み
 
 ---
 
+## 思想
+
+Brandt(2002) の[[Temporal Type Constructor]]（以下TTC）という概念を使う。
+
+TTCはジェネリックなタイプ`A`に対して、以下の3つの型コンストラクタを用意することでジェネリックに時間信号を取り扱う思想。
+
+以下はRustの擬似コード。
+
+```rust
+type time = Real;
+//時間に紐づいたイベント。MIDIノートとか
+struct Event<A>{v:A, t:time} 
+//有限ベクトル。オーディオファイルとか
+type Vec<A> = std::Vec<A> 
+//無限ベクトル、またはストリーム。1論理時刻毎にA型のものを返す漸化式（内部状態を持つかもしれない）
+type iVec<A> = Box<dyn FnMut()->A> 
+```
+
+例えばMIDIの記録されたデータは
+
+```rust
+Vec<Event<(u8,u8)>> //ノート番号、ベロシティ
+```
+
+みたいになる
+
 ## 構造
 
-いわゆるオーディオプラグインのように、各コンポーネントがUI＋オーディオ処理を記述していて、それをツリー状に組み合わせていくのではなく、プロジェクトツリー、UIのツリー、オーディオ処理用の構造体とそれぞれツリーができ、全てのノードが対応づけされている
+基本的なイメージはこんな感じ？
+
+```
+type Project<V> = Vec<Track<_,__>> -> iVec<V>
+type Track<I,O> =  Device<I> * Device<O> //デバイス情報
+				*(
+				  Vec<Region<O>> 
+				| Generator<O>
+				)
+type Region<V> = (time*time)* //start,duration
+				(Vec<V> //　オーディオデータ
+				  | Generator<V>
+				  | Project<V>) //プロジェクトも再帰的に埋め込める
+type Generator<T> = iVec<T>			
+```
+
+なんだけど、TrackAで使われてるGeneratorの中のParameterとしてTrackBの値をアサインしたい、みたいなことを表現できたらプログラミングとして面白くなる、という話
+
+```
+//Freq440Hz,Gain1.0,Phase0.0
+let Track1 = Generator::SineWave(Constant(440),Constant(1.0),Constant(0.0));
+let Track2 = Generator::SineWave(Track1,Constant(1.0),Constant(0.0));
+```
+これをあんまり動的ディスパッチじゃない感じで実装したい。そしてこの辺までは別にMaxとかと同じレベルの話
+
+ここからがDAWをプログラミングで操作できる面白いとこで、例えばリージョンに対するフェードインアウトとかを`Region<T>->Region<T>`の関数として定義できるところ
+
+
+
+
+---
+以下は昔に考えていたこと
 
 コードの例(モジュレーションされているサイン波＋ディレイ)
 
