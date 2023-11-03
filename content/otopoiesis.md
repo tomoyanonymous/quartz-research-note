@@ -28,7 +28,8 @@ type iVec<A> = Box<dyn FnMut()->A>
 例えばMIDIの記録されたデータは
 
 ```rust
-Vec<Event<(u8,u8)>> //ノート番号、ベロシティ
+type NOTE= Event<(u8,u8)>//ノート番号、ベロシティ
+type MIDI = Vec<NOTE> 
 ```
 
 みたいになる
@@ -42,6 +43,7 @@ type Project<V> = Vec<Track<_,__>> -> iVec<V>
 type Track<I,O> =  Device<I> * Device<O> //デバイス情報
 				*(
 				  Vec<Region<O>> 
+				| Vec<Event<I,O>>
 				| Generator<O>
 				)
 type Region<V> = (time*time)* //start,duration
@@ -61,6 +63,11 @@ let Track2 = Generator::SineWave(Track1,Constant(1.0),Constant(0.0));
 これをあんまり動的ディスパッチじゃない感じで実装したい。そしてこの辺までは別にMaxとかと同じレベルの話
 
 ここからがDAWをプログラミングで操作できる面白いとこで、例えばリージョンに対するフェードインアウトとかを`Region<T>->Region<T>`の関数として定義できるところ
+
+CubaseにおけるインストゥルメントトラックとかはMIDIトラック＋シンセサイザーの合成なので、
+`Track<NOTE,NOTE>`に`Vec<NOTE>->iVec<Audio>`みたいなのを適用する関数としてあらわせ、、、る？
+
+
 
 
 
