@@ -69,6 +69,25 @@ CubaseにおけるインストゥルメントトラックとかはMIDIトラッ�
 
 ## 考えうるユースケース
 
+### リージョンに対するFadeInOut
+
+```rust
+fn fade_inout(origin:Region)->Region{
+	let time_in = Param(0.0,"fade_in",0..=f64::MAX);
+	let time_out = Param(0.0,"fade_out",0..=f64::MAX);
+	//クロージャとして値を閉じ込める
+	let new_generator = |s| apply_fadeinout(s,time_in,time_out);
+	Region{
+		start:origin.start,
+		dur:origin.dur,
+		content: compose(origin.content,new_generator)//この辺がよくわからん
+	}
+}
+
+```
+
+### 他
+
 - ドラッグしてるオブジェクトのスナップ対象は例えばCubaseなら固定のグリッドor既存のイベントorその両方とかだけど、例えばグリッドをジェネラティブに生成できる
 	- もちろんクオンタイズにも使える
 - 非破壊的クォンタイズ。録音された時のイベント位置は覚えていて、一番近いグリッドに何％寄せるかも決められるし、ランダマイズも後から修正できる
