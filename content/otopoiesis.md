@@ -83,6 +83,22 @@ fn fade_inout(origin:Region)->Region{
 		content: compose(origin.content,new_generator)//この辺がよくわからん
 	}
 }
+```
+
+### リージョンに対するリバース
+
+```rust
+fn reverse(origin:Region)->Region{
+	//クロージャとして値を閉じ込める
+	let mut new_cache = vec![0;origin.get_dur_in_samples()*origin.channeks];
+	origin.render(new_cache);
+	let new_generator = |s| ;
+	Region{
+		start:origin.start,
+		dur:origin.dur,
+		content: compose(origin.content,new_generator)//この辺がよくわからん
+	}
+}
 
 ```
 
