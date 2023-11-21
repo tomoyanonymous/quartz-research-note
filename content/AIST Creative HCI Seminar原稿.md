@@ -72,3 +72,39 @@ Program as a Format - MPEG-Structured Audio(CSoundベースの音源配布フォ
 
 ## [[otopoiesis]]について
 
+
+### プロジェクトの構造
+
+まだシンタックス（パーサー）が実装されてないので、Rust風の擬似ソースコード
+
+```rust
+let FadeInOut = |time_in,time_out,origin|{
+	Region({
+		start: origin.start
+		dur  : origin.dur
+		content: apply_fadeinout(start,dur,time_in,time_out,origin.content)
+	})	
+}
+
+let project = |sample_rate|{
+	let tracks = Track([
+		FadeInOut(
+			0.1,
+			0.1,
+			region: {
+						start:0.0,
+						dur: 1.0,
+						content: || sinewave{
+							Param("freq",440.0,20.0..20000.0)
+							Param("amp",1.0,0.0..1.0)
+							Param("phase",0.0,0.0..1.0)
+						}
+					}
+		)
+	]);
+	tracks.map(||
+		
+	)
+}
+
+```
