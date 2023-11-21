@@ -31,7 +31,8 @@ https://chci.pages.dev/aist-seminar
 
 ### 1950s: 音響遅延線メモリ、デバッグのための音の利用、転じてメロディの実現（hooter）
 
-### 1960s: MUSIC / UGenパラダイムの登場、モジュラーシンセサイザーとの等価性
+### 1960s: MUSIC N / UGenパラダイムの登場、モジュラーシンセサイザーとの等価性
+
 ### 1970s: [[GROOVE]] / Alan Kay, Metamedia
 ### 1980s: UGenのハードウェア化
 
