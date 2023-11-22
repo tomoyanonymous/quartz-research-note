@@ -48,9 +48,10 @@ $$
 \begin{align}
 e \; ::=& \quad x \quad x \in \mathbb{V} \quad & [value]\\
      |& \quad \lambda x.e  \quad & [lambda]\\
-     |& \quad fix \; x.e  \quad & [fix]\\
-     |& \quad feed \; x.e \quad & [feed] \\
+     |& \quad fix \; x.e  \quad & [fixpoint]\\
      |& \quad e \; e \quad & [app]\\
+     |& \quad feed \; x.e \quad & [feed] \\
+|& \quad delay \; e \; e & [delay]\\
      %%|& \quad (e_1,e_2) \quad & [product]\\
      %%|& \quad \pi_n e \quad n\in \mathbb{N},\; n>0 \quad & [project]\\
      %%|& \quad \langle e \rangle \quad & [code] \\
@@ -223,8 +224,9 @@ $$
 でラムダ抽象とFeedの型付け規則こういう感じになると
 
 $$
-\frac{\Gamma, x:\tau^a \vdash e:\tau^b}{\Gamma \vdash \lambda x.e:\tau^a \to \tau^b }\\
-\\
+\frac{\Gamma, x:\tau^a \vdash e:\tau^b}{\Gamma \vdash \lambda x.e:\tau^a \to \tau^b }
+$$
+$$
 \frac{\Gamma, x : \tau_p^a \vdash e: \tau_p^a }{\Gamma \vdash feed\ x.e:\tau_p^a}
 $$
 
