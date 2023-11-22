@@ -85,14 +85,21 @@ Program as a Format - MPEG-Structured Audio(CSoundベースの音源配布フォ
 まだシンタックス（パーサー）が実装されてないので、Rust風の擬似ソースコード
 
 ```rust
+let sinewave =|freq,amp,phase|{
+	...
+}
+let apply_fadeinout = |start,dur,time_in,time_out,content|{
+	...
+}
 let FadeInOut = |time_in,time_out,origin|{
+	let time_in = Param("time_in",0.01,0.0..inf);
+	let time_out = Param("time_out",0.01,0.0..inf);
 	Region({
 		start: origin.start
 		dur  : origin.dur
 		content: apply_fadeinout(start,dur,time_in,time_out,origin.content)
 	})	
 }
-
 let project = |sample_rate|{
 	let tracks = Track([
 		FadeInOut(
@@ -109,9 +116,7 @@ let project = |sample_rate|{
 					}
 		)
 	]);
-	tracks.map(||
-		
-	)
+	tracks.map(|t| t.render()).sum()
 }
 
 ```
