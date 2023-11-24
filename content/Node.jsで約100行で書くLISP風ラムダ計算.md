@@ -8,23 +8,9 @@
 (let double (lambda (x) (* x x)) (double 6)) 
 ```
 
-まあプリミティブ演算は四則演算だけで再帰関数は自力で定義
-```lisp
-(let fix 
-	 (lambda (f) 
-	 (
-		 (lambda (x) (f (lambda(y) (x x y)))) 
-		 (lambda (x) (f (lambda(y) (x x y))))
-	 )
-	 )  
-	 (let fact 
-		 (fix (lambda (f) (lambda (n) (if n (* n (f (- n 1))) 1) ) ))
-		 (fact 10) 
-	 )
- )
- %% 一行に直す %%
- (let fix  (lambda (f) ( (lambda (x) (f (lambda(y) (x x y)))) (lambda (x) (f (lambda(y) (x x y))))))(let fact (fix (lambda (f) (lambda (n) (if n (* n (f (- n 1))) 1) ) ))(fact 10)))
-```
+ただ再帰は今のところ難しい。多分ListとAtomの区別がきちんとできてないせいで不動点コンビネータがきちんと動かない。
+
+あくまで雰囲気重視で、ということなのだが、結果的にコードが短いため初学者にわかりやすいかと言われると、かなりコメントを足していかないと読めなさそう。
 
 ```js
 const reader = require("readline").createInterface({
@@ -65,11 +51,7 @@ const parse = (tokens) => {
     }
     return next_res
 }
-
-const read = (str) => {
-    const res = parse(tokenize(str));
-    return res
-}
+const read = (str) => parse(tokenize(str));
 
 const binop = (args, fn) => fn(args[0], args[1]);
 
@@ -78,7 +60,8 @@ const env = {
     "+": args => binop(args, (a, b) => a + b),
     "-": args => binop(args, (a, b) => a - b),
     "*": args => binop(args, (a, b) => a * b),
-    "/": args => binop(args, (a, b) => a / b)
+    "/": args => binop(args, (a, b) => a / b),
+    "if": args => args[0] ? args[1] : args[2]
 }
 
 const try_find = (name, env) => {
@@ -92,30 +75,34 @@ const try_find = (name, env) => {
     }
 }
 const eval = (expr, env) => {
+	if (expr ==null){
+		return null;
+	}
     if (!Array.isArray(expr)) {
         return !isNaN(parseFloat(expr)) ? parseFloat(expr) : try_find(expr, env)
     } else {
         const op = expr.shift();
         switch (op) {
             case 'let': {
+                let res = eval(expr[1], env);
                 let newenv = { "parent": env };
-                env[expr[0]] = eval(expr[1], newenv);
-                return eval(expr[2], env)
+                newenv[expr[0]] = res;
+                return eval(expr[2], newenv)
             }
             case 'lambda': return ['closure', expr[0], expr[1], env]//ids,body,env
             default: {
-                let fn = try_find(op, env);
+				let fn = eval(op, env);
                 if (fn) {
-                    if (Array.isArray(fn) && fn[0] === "closure") {
+                    if (Array.isArray(fn) && fn[0] === "closure") {//closure
                         for (let i = 0; i < fn[1].length; i++) {
-                             fn[3][fn[1][i]] = expr[i]
+                             fn[3][fn[1][i]] = eval(expr[i],env)
                         }
                         return eval(fn[2],  fn[3])
-                    } else {
+                    } else {//extern function
                         return fn(expr.map(e => eval(e, env)))
                     }
                 } else {
-                    console.error(`symbol ${op} not found`)
+	                 return fn
                 }
             }
         }
