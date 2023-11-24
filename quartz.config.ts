@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "garden.matsuuratomoya.com",
-    ignorePatterns: ["private", "templates"],
+    ignorePatterns: ["private", "templates",".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {
@@ -69,6 +69,7 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
+      Plugin.NotFoundPage(),
     ],
   },
 }
