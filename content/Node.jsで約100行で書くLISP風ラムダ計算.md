@@ -17,7 +17,6 @@ const reader = require("readline").createInterface({
 
 const tokenize = (str) =>
     str.match(/[\(]|[\)]|[\+\-\*\/]|[a-zA-Z_]+|(-?\d+(\.\d+)?)/g);
-
 const parse_token = (token, stack, res) => {
     switch (token) {
         case '(': {
@@ -40,7 +39,6 @@ const parse_token = (token, stack, res) => {
         }
     }
 }
-
 const parse = (tokens) => {
     let stack = [];
     let next_res = [];
@@ -52,7 +50,6 @@ const parse = (tokens) => {
 const read = (str) => parse(tokenize(str));
 
 const binop = (args, fn) => fn(args[0], args[1]);
-
 const env = {
     "parent": null,
     "+": args => binop(args, (a, b) => a + b),
@@ -100,7 +97,7 @@ const eval = (expr, env) => {
                         return fn(expr.map(e => eval(e, env)))
                     }
                 } else {
-	                 return fn
+	                 return null
                 }
             }
         }
