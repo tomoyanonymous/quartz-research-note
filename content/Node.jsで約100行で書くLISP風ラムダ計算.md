@@ -1,8 +1,6 @@
 #programming-language #compiler-design #lisp 
 
-[Make A Lisp](https://github.com/kanaka/mal)よりさらに最小限の実装ってどのくらいかなー、というのを考えた。
-
-クロージャも作れるのでこのくらいのことはできる。
+[Make A Lisp](https://github.com/kanaka/mal)よりさらに最小限の実装ってどのくらいかなー、というのを考えた。Cons、Cdr、Carは無い。演算は四則演算とifのみ。その代わりクロージャは作れるのでこのくらいのことはできる。
 
 ```lisp
 (let double (lambda (x) (* x x)) (double 6)) 
@@ -10,7 +8,7 @@
 
 ただ再帰は今のところ難しい。多分ListとAtomの区別がきちんとできてないせいで不動点コンビネータがきちんと動かない。
 
-あくまで雰囲気重視で、ということなのだが、結果的にコードが短いため初学者にわかりやすいかと言われると、かなりコメントを足していかないと読めなさそう。
+あくまで雰囲気重視で、ということなのだが、結果的にコードが短いため初学者にわかりやすいかと言われると、かなりコメントを足していかないと読めなさそうで矛盾してる気がする。
 
 ```js
 const reader = require("readline").createInterface({
