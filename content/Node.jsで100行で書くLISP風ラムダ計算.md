@@ -10,7 +10,20 @@
 
 まあプリミティブ演算は四則演算だけで再帰関数は自力で定義
 ```lisp
-(let fix (lambda (f) ((lambda (x) (f (lambda (y) (x x y) ))) ())  ) )
+(let fix 
+	 (lambda (f) 
+	 (
+		 (lambda (x) (f (lambda(y) (x x y)))) 
+		 (lambda (x) (f (lambda(y) (x x y))))
+	 )
+	 )  
+	 (let fact 
+		 (fix (lambda (f) (lambda (n) (if n (* n (f (- n 1))) 1) ) ))
+		 (fact 10) 
+	 )
+ )
+ %% 一行に直す %%
+ (let fix  (lambda (f) ( (lambda (x) (f (lambda(y) (x x y)))) (lambda (x) (f (lambda(y) (x x y))))))(let fact (fix (lambda (f) (lambda (n) (if n (* n (f (- n 1))) 1) ) ))(fact 10)))
 ```
 
 ```js
