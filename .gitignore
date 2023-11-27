@@ -7,3 +7,5 @@ tsconfig.tsbuildinfo
 content/.obsidian/workspace.json
 .quartz-cache
 private/
+.replit
+replit.nix

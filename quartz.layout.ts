@@ -41,7 +41,8 @@ const graph_cfg = {
   },
 };
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), /*Component.TagList()*/],
+  beforeBody: [Component.Breadcrumbs(),
+  Component.ArticleTitle(), Component.ContentMeta(), /*Component.TagList()*/],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -63,5 +64,3 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
-
-
