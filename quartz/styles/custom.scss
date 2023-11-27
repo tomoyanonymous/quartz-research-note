@@ -1,3 +1,4 @@
+@use "./base.scss";
 :root {
     --light: #d7eff7;
     --dark: #284b63;
@@ -11,6 +12,5 @@
     --million-progress-bar-color: var(--secondary);
     --highlighted: #f5dfaf88;
   }
-@use "./base.scss";
-
+  
 // put your custom CSS here!
