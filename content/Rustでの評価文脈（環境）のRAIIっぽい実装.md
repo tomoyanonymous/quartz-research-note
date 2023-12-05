@@ -1,4 +1,6 @@
-#programminglanguage #compiler-design
+#programming-language #compiler-design
+
+## 動機
 
 [chumskyのチュートリアル](https://github.com/zesterer/chumsky/blob/main/tutorial.md)で、評価する関数の実装がライフタイム付きでこんな感じになってたの頭いいなと思ったので、RAIIにしたらもっとシンプルに見えるのではと思った
 
@@ -102,4 +104,31 @@ fn eval_ast<'a>(
 	}
 
 }
+```
+
+
+## 改善
+
+微妙だったので結局ライフタイムで制御する方がいいのかもしれない
+
+
+評価した時に、クロージャを作ると環境を保持する
+
+Valueの中ではクロージャが`Env`と、bodyで`Expr`を保持し、環境はValueを保持するので定義も内部構造も循環することになる
+
+全部メモリ的にフラットな構造にするためは？
+
+Envは評価結果のValueをIdで保持する
+
+一度lookupしたらEnvのインデックスに置き換えて2度目以降のアクセスはキャッシュが効くようにする
+
+```rust
+
+
+struct Compiler<'a,E,V>{
+	expr_pool:Arena<Expr<'a>>,
+	env:Environment<Intened<String>,V>,
+	symbols:Interner<String>,
+}
+
 ```
