@@ -1,4 +1,4 @@
-#programminglanguage 
+#programming-language 
 
 軽量で埋め込みやすいスクリプティング言語。音楽用ソフトでは[[Reaper]]とかでも使われている。
 

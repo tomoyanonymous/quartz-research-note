@@ -1,5 +1,5 @@
 
-#programminglanguage #sound
+#programming-language #sound
 
 https://github.com/tomoyanonymous/otopoiesis
 
