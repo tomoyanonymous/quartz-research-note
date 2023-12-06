@@ -1,4 +1,4 @@
-#memo #mimium #programminglanguage 
+#memo #mimium #programming-language 
 
 [[音楽プログラミング言語の形式化#mimium と 多段階計算]]
 

@@ -1,4 +1,4 @@
-#programminglanguage #memo #logic
+#programming-language #memo #logic
 
 [[Coq]]を用いた定理証明支援の基礎
 
