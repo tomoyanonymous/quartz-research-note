@@ -4,6 +4,10 @@
 https://github.com/tomoyanonymous/otopoiesis
 
 DAWをプログラマブルにする試み
+```
+#[param("hoge",0..8)]
+let p1 = 1.0;
+```
 
 ---
 
