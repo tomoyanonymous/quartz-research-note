@@ -1,6 +1,6 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
-
+@use "./variables.scss" as *;
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: none;

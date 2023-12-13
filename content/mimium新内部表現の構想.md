@@ -1,10 +1,10 @@
-#memo #mimium #programminglanguage 
+#memo #mimium #programming-language 
 
 [[音楽プログラミング言語の形式化#mimium と 多段階計算]]
 
 [[多段階計算]]を取り入れたい
 
-とりあえず$W$ Calculusを自然に拡張してみる。
+とりあえず[[The w-calculus a synchronous framework for the verified modelling of digital signal processing algorithms|W Calculus]]を自然に拡張してみる。
 $W$ Calculusとmimiumの形式は似ているが、主に2つの違いがある。
 
 1.　$W$ Calculus はLinear-Time Invariant なシステムを想定しているため、基本演算は項の加算と、項と定数の乗算しか使えない。
