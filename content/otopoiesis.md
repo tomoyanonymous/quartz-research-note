@@ -1,9 +1,13 @@
 
-#programminglanguage #sound
+#programming-language #sound
 
 https://github.com/tomoyanonymous/otopoiesis
 
 DAWをプログラマブルにする試み
+```
+#[param("hoge",0..8)]
+let p1 = 1.0;
+```
 
 ---
 
@@ -166,3 +170,11 @@ fileplayerのui実装もgeneratorからregionに移そう
 
 そうなるとaudio側の実装もそっちに合わせるのが自然だよな・・・
 
+
+完全にValueを64bitで静的型付けとして扱う時の、擬似的に動的型チェックする方法がないか
+
+id_arenaのIDが128bitである限りちょっと厳しそう
+プロジェクト、トラック、リージョンが限られた数であることを前提にすればNaNBoxingもできなくはなさそうだが、、、
+
+コンパイラのContextをアプリ中で引き回さなくちゃいけなくなるのがやだなー
+少なくともこれやるとマルチスレッドはめっちゃ難しくなるな

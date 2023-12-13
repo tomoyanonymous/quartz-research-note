@@ -1,4 +1,4 @@
-#programminglanguage #sound 
+#programming-language #sound 
 
 Andrew Sorensenが作ったLispライブプログラミング環境。
 
