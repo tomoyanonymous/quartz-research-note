@@ -25,6 +25,10 @@ interface BreadcrumbOptions {
    * Wether to display breadcrumbs on root `index.md`
    */
   hideOnRoot: boolean
+  /**
+   * Wether to display the current page in the breadcrumbs.
+   */
+  showCurrentPage: boolean
 }
 
 const defaultOptions: BreadcrumbOptions = {
@@ -32,6 +36,7 @@ const defaultOptions: BreadcrumbOptions = {
   rootName: "Home",
   resolveFrontmatterTitle: true,
   hideOnRoot: true,
+  showCurrentPage: true,
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
@@ -63,8 +68,9 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       // construct the index for the first time
       for (const file of allFiles) {
         if (file.slug?.endsWith("index")) {
-          const folderParts = file.filePath?.split("/")
+          const folderParts = file.slug?.split("/")
           if (folderParts) {
+            // 2nd last to exclude the /index
             const folderName = folderParts[folderParts?.length - 2]
             folderIndex.set(folderName, file)
           }
@@ -83,7 +89,10 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
         // Try to resolve frontmatter folder title
         const currentFile = folderIndex?.get(curPathSegment)
         if (currentFile) {
-          curPathSegment = currentFile.frontmatter!.title
+          const title = currentFile.frontmatter!.title
+          if (title !== "index") {
+            curPathSegment = title
+          }
         }
 
         // Add current slug to full path
@@ -95,10 +104,12 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       }
 
       // Add current file to crumb (can directly use frontmatter title)
-      crumbs.push({
-        displayName: fileData.frontmatter!.title,
-        path: "",
-      })
+      if (options.showCurrentPage) {
+        crumbs.push({
+          displayName: fileData.frontmatter!.title,
+          path: "",
+        })
+      }
     }
     return (
       <nav class={`breadcrumb-container ${displayClass ?? ""}`} aria-label="breadcrumbs">
