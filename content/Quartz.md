@@ -27,6 +27,7 @@ https://quartz.jzhao.xyz/migrating-from-Quartz-3
 	- →パーセントエンコーディングをデコードするようにしたら治った。
 		- [プルリク立てた](https://github.com/jackyzha0/quartz/pull/366)
 		- これはv4でも治ってなかったので別途手元で修正している最中
+		- →マージされた。
 	- フロントマッターにtitle要素を指定する必要はない。よってフロントマッター基本不要になった
 - ~~手元でサーバー立ててプレビューするのがちょっと辛い（hugo-obsidianコマンドが手元で使える必要があるので、Goをインストールか[[Docker]]イメージを利用する感じになる）~~
 	 -v4で解決
@@ -35,9 +36,10 @@ https://quartz.jzhao.xyz/migrating-from-Quartz-3
 
 - SPAでの読み込みが若干怪しく、youtubeの埋め込みがある記事は一回リロードしないときちんと読まれない時がある？
 - グラフのオプション指定がなぜかデフォルトパラメーターで上書きされるバグがあったので修正している。
-	- https://github.com/jackyzha0/quartz/pull/384
+	- [PR立てた](https://github.com/jackyzha0/quartz/pull/384)
+	- マージされた。
 - GitHub Pagesのデプロイ用アクションはリポジトリから消えてたので別途作成。
-	- [PR立てた](https://github.com/tomoyanonymous/quartz-research-note/commit/5f58eaba035038faafcdbbf3c51de410c021c579)
+	- [アクション作った](https://github.com/tomoyanonymous/quartz-research-note/commit/5f58eaba035038faafcdbbf3c51de410c021c579)
 	- ビルドも早いし快調。
 - 作成されてないWikilinkのリンクが有効なリンクとして表示されてる。グラフには反映されてないところ見るとレンダリング側でのミスなのかな
 - サイト外に飛ぶリンクにはObsidianみたく矢印マークつけてほしい。
