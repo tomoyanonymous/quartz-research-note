@@ -38,7 +38,8 @@ https://campanthropology.org/2023/02/06/jonathan-sterne-on-his-book-diminished-f
 - 時間経過を伴う病気と障害の違い
 	- 癌が肺に転移している（ステージ4）のためスターン自身も病気（chronic ill）の状態ではある[^cancer]
 	- 障害者は病気だと思われたくなく、病気にかかったものは障害だと思われたくないという相互のスティグマがある
-自身も経験したvocal lossについて
+
+- [[Crip Theory]]
 
 [^cancer]: ブログ記事曰く転移しているけどもそれでも悪化しているわけではないとのこと。 https://superbon.net/2023/06/05/4-june-2023-cancer-crawl/
 
