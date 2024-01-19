@@ -47,7 +47,12 @@ Iris Marion Youngのfeminist phenomenologyの"discontinuous unity"気になる
 
 ## 2章
 
-携帯発声増幅器dork-o-phoneについて
+- 携帯発声増幅器dork-o-phone（正式名称はSpokeman Personal Voice Amplifier）について
+- 電子機器と補聴器や人工内耳、こういうボイスアンプのようなカテゴリの違い
+- 「声」と「口」が暗黙的に同化していることへの批判
+	- 声は哲学の理論で重要な位置を占めている（）
+	- このアンプを使うと、当然だが発音源が口とスピーカーの2箇所になる
+		- しかし、発音源を口に持ってけば当然ながら口が見えなくなる
 
 ## 3章
 
