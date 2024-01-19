@@ -4,7 +4,7 @@
 
 [[Robert McRuer]]が提起
 
-辰己 一輝, ＜書評＞[[Alison Kafer]], Feminist, Queer, Crip 共生学ジャーナル. 2019, 3, p. 202-208
+[[辰己 一輝]], ＜書評＞[[Alison Kafer]], Feminist, Queer, Crip 共生学ジャーナル. 2019, 3, p. 202-208
 
 https://ir.library.osaka-u.ac.jp/repo/ouka/all/72892/ksgj_003_202.pdf
 

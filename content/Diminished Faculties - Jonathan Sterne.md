@@ -51,7 +51,7 @@ Iris Marion Youngのfeminist phenomenologyの"discontinuous unity"気になる
 
 ## 3章
 
-「仮想的な展覧会」で声について話す・・・かなり不思議な章
+本の中で実施される「仮想的な展覧会」で声について話す・・・かなり不思議な章
 
 ## 4章
 
@@ -66,6 +66,6 @@ Audible Scarificationというキーワードが出てくる
 「この章を読むのは疲れると思うが、私も書いてて疲れたんで安心してほしい」とのこと
 
 
+## Impairment Theory: A User's Guide
 
-
-impairment phenomenology
+締めがこれってのが面白いな
