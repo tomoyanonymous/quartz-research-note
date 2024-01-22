@@ -120,6 +120,10 @@ Audile Scarification：Scarificationは傷をつけて体に模様を刻んだ�
 
 - 耳栓についての話
 	- 耳を塞ぐことが社会から切り離されることと結びついてきたが、必ずしも巣じゃないんじゃないか
+	- 初めてのミュージシャン向け耳栓はEtymoticが作ったER-20
+		- 知らんかった
+	- HEAR（Hearing Education and Awareness for Rockers）
+	- ロックミュージシャンで初めて難聴を公にしたのがピート・タウンゼント
 
 ## 5章
 
