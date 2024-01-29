@@ -11,7 +11,7 @@ export default (() => {
 
       if (fileData.dates) {
         // segments.push(formatDate(getDate(cfg, fileData)!))
-        segments.push('created: ' + formatDate(fileData.dates?.["created"]))
+        // segments.push('created: ' + formatDate(fileData.dates?.["created"]))
         segments.push('last updated: ' + formatDate(fileData.dates?.["modified"]))
       }
 
