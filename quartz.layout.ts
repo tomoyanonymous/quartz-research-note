@@ -50,7 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
-  right: [Component.Graph(graph_cfg), Component.Backlinks()],
+  right: [Component.Graph(graph_cfg), Component.Backlinks(), Component.RecentNotes({ title: "Recent writing" })],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
