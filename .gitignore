@@ -4,9 +4,10 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
+content/.obsidian/plugins
 content/.obsidian/workspace.json
-content/.obsidian/plugins/
 .quartz-cache
 private/
 .replit
 replit.nix
+
