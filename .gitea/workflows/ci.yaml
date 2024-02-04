@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: 'latest'
           cache: 'npm'
-          cache-dependency-path: 'package-lock.json'
       - run: npm i
       - run: npx quartz build
       - name: Create private key
