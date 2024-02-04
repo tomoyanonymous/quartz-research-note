@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 'latest'
           cache: 'npm'
-      - uses: https://gitea.com/actions/go-hashfiles
+      - uses: https://gitea.com/actions/go-hashfiles@v0.0.1
         id: get-hash
         with: 
           patterns: |-
