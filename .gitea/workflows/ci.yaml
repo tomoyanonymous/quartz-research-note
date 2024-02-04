@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: git config --global core.quotepath false
+      - name: Install apt packages
+        run: apt update && apt install -y rsync
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
