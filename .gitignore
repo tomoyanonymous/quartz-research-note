@@ -10,3 +10,4 @@ content/.obsidian/plugins
 private/
 .replit
 replit.nix
+content/.pandoc/*.json

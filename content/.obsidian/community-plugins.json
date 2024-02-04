@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-zotero-desktop-connector",
-  "2hop-links-plus"
+  "2hop-links-plus",
+  "obsidian-auto-link-title",
+  "obsidian-pandoc-reference-list"
 ]
