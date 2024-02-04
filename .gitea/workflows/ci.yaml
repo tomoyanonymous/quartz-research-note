@@ -18,10 +18,6 @@ jobs:
           cache-dependency-path: 'package-lock.json'
       - run: npm i
       - run: npx quartz build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./public
       - name: Create private key
         run: |
           echo "${{ secrets.PRIVATE_KEY }}" > /tmp/act_runner_key
