@@ -18,7 +18,7 @@ jobs:
       - uses: https://github.com/actions/setup-node@v4
         with:
           node-version: 'latest'
-          cache: 'npm'
+      - uses: https://github.com/actions/setup-go@v4
       - uses: https://gitea.com/actions/go-hashfiles@v0.0.1
         id: get-hash
         with: 
