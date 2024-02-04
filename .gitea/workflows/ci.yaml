@@ -19,6 +19,18 @@ jobs:
         with:
           node-version: 'latest'
           cache: 'npm'
+      - uses: actions/go-hashfiles@v0.0.1
+        id: get-hash
+        with: 
+          patterns: |-
+            **/package-lock.json      
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ steps.get-hash.outputs.hash }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - run: npm i
       - run: npx quartz build
       - name: Create private key
