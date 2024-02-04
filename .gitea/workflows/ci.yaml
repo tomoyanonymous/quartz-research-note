@@ -26,4 +26,4 @@ jobs:
           chmod 600 /tmp/act_runner_key
       - name: rsync public directory
         run: |
-          rsync -avz --delete -e "ssh -i /tmp/act_runner_key -o StrictHostKeyChecking=no" ${{ gitea.workspace }}/public/* ${{ vars.WEBSERVER_USER }}@${{ vars.WEBSERVER_HOST }}:/var/www/html
+          rsync -avz --delete -e "ssh -i /tmp/act_runner_key -p ${{secrets.WEBSERVER_SSH_PORT }}-o StrictHostKeyChecking=no" ${{ gitea.workspace }}/public/* ${{ vars.WEBSERVER_USER }}@${{ vars.WEBSERVER_HOST }}:/var/www/html
