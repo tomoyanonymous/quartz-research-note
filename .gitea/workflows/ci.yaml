@@ -11,11 +11,17 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - uses: actions/setup-node@v3
+      - uses: actions/go-hashfiles@v0.0.1
+        id: get-hash
+        with: 
+          patterns: |-
+            **/package-lock.json      
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ steps.get-hash.outputs.hash }}
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm i
@@ -30,4 +36,4 @@ jobs:
           chmod 600 /tmp/act_runner_key
       - name: rsync public directory
         run: |
-          rsync -avz --delete -e "ssh -i /tmp/act_runner_key -o StrictHostKeyChecking=no" ${{ gitea.workspace }}/public/* ${{ variables.WEBSERVER_USER }}@${{ variables.WEBSERVER_HOST }}:/var/www/html
+          rsync -avz --delete -e "ssh -i /tmp/act_runner_key -o StrictHostKeyChecking=no" ${{ gitea.workspace }}/public/* ${{ vars.WEBSERVER_USER }}@${{ vars.WEBSERVER_HOST }}:/var/www/html
